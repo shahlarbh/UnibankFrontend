@@ -1,0 +1,634 @@
+.darkmode{
+    .selected_tab{
+        &::after{
+            border-top: 2px solid #1A1A1A !important;
+            border-right: 2px solid #1A1A1A !important;
+            background-color: #1A1A1A !important;
+        }
+    }
+
+    .select_location{
+        &::after{
+            border-top: 2px solid #000000 !important;
+            border-right: 2px solid #000000 !important;
+            background-color: #000000 !important;
+        }
+    }
+
+    .web_app{
+        background-color: #000000 !important;
+
+        header{
+            background-color: #000000 !important;
+    
+            .first_header{
+                background-color: #000000 !important;
+    
+                nav{
+                    a{
+                        color: #FFFFFF !important;
+                    }
+                }
+    
+                .menu, .lang, .search{
+                    a, i{
+                        background-color: #323232 !important;
+                        color: #FFFFFF !important;
+                    }
+                }
+            }
+    
+            .second_header{
+                nav{
+                    a{
+                        color: #FFFFFF !important;
+                    }
+                }
+    
+                span{
+                    color: #FFFFFF !important;
+                }
+            }
+    
+            .search_panel{
+                background-color: rgba(9,8,8,.9) !important;
+
+                .close, .loop, p{
+                    color: #FFFFFF !important;
+                }
+
+                form{
+                    input{
+                        background-color: #252323;
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .hidden_panel{
+                    background-color: rgba(9,8,8,.9) !important;
+
+                    span{
+                        color: #FFFFFF !important;
+                    }
+
+                    a{
+                        color: #FFFFFF !important;
+                        border-color: #FFFFFF !important;
+                    }
+                }
+            }
+
+            .mobile_header{
+                .hamburger_menu{
+                    i{
+                        background-color: rgba(255,255,255,.1) !important;
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .phone{
+                    a{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        span{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+            }
+
+            .hamburger_panel{
+                background-color: #000000 !important;
+
+                .menu_hamburger{
+                    a{
+                        background-color: #323232 !important;
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .navigation_menu, .navbar_menu{
+                    a{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .responsive_search{
+                    span{
+                        i{
+                            background-color: #323232 !important;
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .responsive_language{
+                    a{
+                        background-color: #323232 !important;
+                        color: #FFFFFF !important;
+                    }
+                }
+            }
+        }
+
+        main{
+            section{
+                .info{
+                    .box{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        h4, span{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .ucard{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .ubank{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    p{
+                        color: #FFFFFF !important;
+                    }
+
+                    .icons{
+                        img{
+                            background-color: silver !important;
+                        }
+                    }
+                }
+
+                .currency{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    .currency_box{
+                        h4, p, td{
+                            color: #FFFFFF !important;
+                        }
+
+                        th{
+                            color: silver !important;
+                        }
+                    }
+
+                    .currency_calc{
+                        background-color: #FFFFFF1A !important;
+
+                        h2, p, span{
+                            color: #FFFFFF !important;
+                        }
+
+                        input{
+                            background-color: #FFFFFF1A !important;
+                            border-color: #FFFFFF1A !important;
+                            color: #FFFFFF !important;
+                        }
+
+                        .main_box{
+                            i{
+                                color: #FFFFFF !important;
+                            }
+                        }
+
+                        .exchange_div{
+                            background-color: rgba(255,255,255,.1) !important;
+                        }
+                    }
+                }
+
+                .news{
+                    .box{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        h4, p, span{
+                            color: #FFFFFF !important;
+                        }
+
+                        &:hover{
+                            background-color: #FF6400 !important;
+                        }
+                    }
+                }
+
+                .connection{
+                    .location, .call_center{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        p{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .title{
+                    h1{
+                        color: #FFFFFF;
+                    }
+                }
+
+                .ucard_panel{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .ubank_cards{
+                    .box{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        h2, p{
+                            color: #FFFFFF !important;
+                        }
+
+                        .ubank_various{
+                            color: #FFFFFF !important;
+                            background-color: rgba(255,255,255,.1) !important;
+                        }
+                    }
+                }
+
+                .cashback_info{
+                    p{
+                        color: #FFFFFF;
+
+                        a{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .cashback_header{
+                    background-color: rgba(255,255,255,.1);
+
+                    .select_options{
+                        p, i{
+                            color: #FFFFFF;
+                        }
+
+                        select{
+                            background-color: rgba(255,255,255,.1);
+                            color: #FFFFFF;
+                        }
+
+                        input{
+                            background-color: rgba(255,255,255,.1);
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .cashback_partners{
+                    .partner_box{
+                        background-color: rgba(255,255,255,.1);
+
+                        h4, h6, p{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .cashback_information{
+                    background-color: rgba(255,255,255,.1);
+
+                    .title{
+                        h1{
+                            color: #FF6400 !important;
+                        }
+                    }
+
+                    .cashback_context{
+                        h6, p{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .cashback_calculator{
+                    background-color: rgba(255,255,255,.1);
+
+                    .title{
+                        h1{
+                            color: #FF6400;
+                        }
+                    }
+
+                    .cashback_calc{
+                        background-color: rgba(255,255,255,.001);
+
+                        .select_options{
+                            p{
+                                color: #FFFFFF;
+                            }
+
+                            i, span{
+                                color: #FFFFFF;
+                            }
+
+                            select{
+                                background-color: rgba(255,255,255,.1);
+                                color: #FFFFFF;
+                            }
+
+                            input{
+                                background-color: rgba(255,255,255,.1);
+                                color: #FFFFFF;
+                            }
+                        }
+
+                        .cashback_result{
+                            h1, span{
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+
+                .responsive_cashback{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    .title{
+                        h1{
+                            color: #FF6400 !important;
+                        }
+                    }
+
+                    a, h6, p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .branch{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, p{
+                        color: #FFFFFF;
+                    }
+
+                    &:hover{
+                        background-color: #FF6400 !important;
+                    }
+                }
+
+                .branch_banner{
+                    background-color: rgba(255,255,255,.1) !important;
+                }
+
+                .digital_box{
+                    background-color: rgba(255,255,255,.1) !important;
+                    
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    &:hover{
+                        background-color: #FF6400 !important;
+                    }
+                }
+
+                .hr_information{
+                    .box{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        &:hover{
+                            background-color: #FF6400 !important;
+                        }
+
+                        h1, p{
+                            color: #FFFFFF !important;
+                        }
+
+                        .direction{
+                            i{
+                                color: #FFFFFF !important;
+                            }
+                        }
+                    }
+                }
+
+                .management{
+                    .person{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        h1, span, p{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .about_us{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .properties{
+                    .box{
+                        h1, p{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .vacancy{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .transfer_title{
+                    p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .transfers{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .service_box{
+                    background-color: rgba(255,255,255,.1) !important;
+                    
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    &:hover{
+                        background-color: #FF6400 !important;
+                    }
+                }
+
+                .contacts_title{
+                    p{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .contact_box{
+                    background-color: rgba(255,255,255,.1) !important;
+                    
+                    h1, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    &:hover{
+                        background-color: #FF6400 !important;
+                    }
+                }
+
+                .tarif_box, .credit_box, .deposit_box{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h2, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    .various{
+                        border-color: #969696;
+                    }
+                }
+
+                .bank_info{
+                    h2, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    .refresh{
+                        color: #A6ADB2 !important;
+                    }
+                }
+
+                .bank_banner{
+                    background-color: rgba(255,255,255,.1) !important;
+                }
+
+                .bank_boxes{
+                    .bank_box{
+                        background-color: rgba(255,255,255,.1) !important;
+
+                        h1,p {
+                            color: #FFFFFF !important;
+                        }
+
+                        &:hover{
+                            background-color: #FF6400 !important;
+                        }
+                    }
+                }
+
+                .bottom_box, .awards_boxes{
+                    .box_info{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .bottom_box{
+                    a{
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .news_box{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, p, span{
+                        color: #FFFFFF !important;
+                    }
+
+                    &:hover{
+                        background-color: #FF6400 !important;
+                    }
+                }
+
+                #pagination{
+                    button{
+                        background-color: #000000 !important;
+                        color: #FFFFFF !important;
+                        border-color: #969696 !important;
+                    }
+
+                    .active_page{
+                        color: #FF6400 !important;
+                        border-color: #FF6400 !important;
+                    }
+
+                    .active_direction{
+                        background-color: #FF6400 !important;
+                        border-color: #FF6400 !important;
+                        color: #FFFFFF !important;
+                    }
+                }
+
+                .cashback_box{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    .cashback_info{
+                        h1, span{
+                            color: #FFFFFF !important;
+                        }
+                    }
+
+                    .cashback_discount{
+                        p{
+                            color: #FFFFFF !important;
+                        }
+                    }
+                }
+
+                .mobile_cashback{
+                    background-color: rgba(255,255,255,.1) !important;
+
+                    h1, span, p{
+                        color: #FFFFFF !important;
+                    }
+
+                    .mobile_discount{
+                        h1{
+                            color: #FF6400 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer{
+            .all_footer{
+                a{
+                    color: #FFFFFF !important;
+                }
+            }
+
+            .footer_icons{
+                i{
+                    color: #000000 !important;
+                }
+            }
+
+            hr{
+                color: #FFFFFF !important;
+            }
+
+            .left_end{
+                h4, p{
+                    color: #FFFFFF !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesabım / Unibank</title>
+    <link rel="icon" href="assets/image/apple-touch-icon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="account">
+    <div class="profile_container">
+        <div class="account_container">
+            <!-- Header -->
+            <header class="account_header">
+                <div class="account_logo">
+                    <a href="index.html"><img src="assets/image/logo_unibank.png" alt=""></a>
+                </div>
+                <div class="account_lang">
+                    <a href="#" class="selected_lang">AZE</a>
+                    <a href="#">ENG</a>
+                    <a href="#">RUS</a>
+                </div>
+            </header>
+            <!-- End of the header -->
+            <main>
+                <section>
+                    <div class="account_infobox">
+                        <i class="fa-solid fa-user-plus log"></i>
+                        <span>Şahlar Hacıyev</span>
+                        <p>Şəxsi kabinetinə xoş gəlmisən!</p>
+                        <div class="logout d-none">
+                            <div class="logout_option">
+                                <i class="fa-solid fa-key"></i>
+                                <a href="changepassword.html">Şifrəni dəyiş</a>
+                            </div>
+                            <div class="logout_option">
+                                <i class="fa-solid fa-lock"></i>
+                                <a href="login.html">Hesabdan çıxış</a>
+                            </div>
+                        </div>
+                        <div class="request_box">
+                            <h1>Müraciətlər qutusu (<i class="fa-regular fa-envelope"></i><span></span>)</h1>
+                            <div class="request_title">
+                                <div class="request_row">№</div>
+                                <div class="request_content">Müraciətin məzmunu</div>
+                                <div class="request_date">Tarix</div>
+                                <div class="request_status">Status</div>
+                            </div>
+                            <hr>
+                            <div class="alert alert-danger w-50 my-5 mx-auto text-center" style="font-family: montserrat;">Hal-hazırda edilmiş heç bir müraciətiniz yoxdur</div>
+                            <div class="request_result">
+                                <div class="request_row"></div>
+                                <div class="request_content"></div>
+                                <div class="request_date"></div>
+                                <div class="request_status"></div>
+                            </div>                            
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="assets/js/account.js"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

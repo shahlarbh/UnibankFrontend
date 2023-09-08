@@ -1,0 +1,138 @@
+.title{
+    padding-top: 1rem;
+
+    h1{
+        font-size: 36px;
+        font-family: boldpro;
+        color: #FF6400;
+    }
+}
+
+.ucard_panel{
+    padding: 3rem 4rem;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    margin: 2rem 0;
+
+    .ucard_image{
+        margin-right: 2rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .ucard_header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+
+        .ucard_title{
+            h1{
+                font-size: 28px;
+                font-family: boldpro;
+                color: #000000;
+            }
+        }
+
+        .ucard_link{
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-family: bold;
+                padding: 15px 36px;
+                background-color: #FF6400;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    p{
+        font-size: 14px;
+        color: #000000;
+        font-family: regular;
+    }
+
+    .ucard_parametrs{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+
+        .box{
+            i{
+                font-size: 36px;
+                color: #FF6400;
+                margin-right: 10px;
+            }
+
+            p{
+                display: inline-block;
+                width: 50%;
+                font-size: 18px;
+                color: #000000;
+                font-family: semiboldpro;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.ubank_cards{
+    padding-top: 2rem;
+
+    .box{
+        padding: 3rem 4rem;
+        background-color: #FAFAFA;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        height: 525px;
+
+        .ubank_image{
+            width: 75%;
+            border-radius: 10px;
+
+            img{
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: -15px 15px 30px 0 rgba(0,0,0,.24);
+            }
+        }
+
+        .ubank_infobox{
+            position: relative;
+            height: 140px;
+
+            h2{
+                margin-top: 2rem;
+                font-size: 28px;
+                font-family: boldpro;
+                color: #000000;
+            }
+
+            p{
+                font-size: 14px;
+                color: #000000;
+                font-family: regular;
+                margin-top: 1rem;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-family: bold;
+            padding: 15px 36px;
+            background-color: #FF6400;
+            border-radius: 25px;
+        }
+
+        .ubank_various{
+            color: #969696;
+            border: 1px solid #E6E6E6;
+            background-color: #FAFAFA;
+            margin-left: 10px;
+        }
+    }
+}

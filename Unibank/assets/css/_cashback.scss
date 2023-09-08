@@ -1,0 +1,303 @@
+.web_app{
+    overflow-x: hidden !important;
+
+    .cashback_info{
+        p{
+            font-size: 13px;
+            font-family: montserrat;
+            color: #000000;
+    
+            a{
+                color: #000000;
+            }
+        }
+    }
+    
+    .responsive_cashback{
+        display: none;
+    }
+    
+    .cashback_header{
+        background-color: #FAFAFA;
+        padding: 2rem 8px;
+        border-radius: 10px;
+        margin: 3rem 0 1rem;
+    
+        .select_options{
+            position: relative;
+    
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+                color: #000000;
+            }
+    
+            i{
+                position: absolute;
+                top: 62px;
+                right: 40px;
+                font-size: 12px;
+                color: #FF7A00;
+            }
+    
+            select{
+                width: 100%;
+                border-radius: 30px;
+                height: 60px !important;
+                color: #FF7A00;
+                font-size: 14px;
+                font-family: montserrat;
+                line-height: 23px;
+                font-weight: 900;
+                padding: 0 20px;
+                border: 1px solid rgba(50,50,50,.1);
+                outline-style: none;
+                appearance: none;
+    
+                option{
+                    font-size: 14px;
+                    font-weight: 900;
+                    font-family: montserrat;
+                    line-height: 23px;
+                }
+            }
+    
+            input{
+                width: 100%;
+                border-radius: 30px;
+                height: 60px !important;
+                color: #FF7A00;
+                font-size: 14px;
+                font-family: montserrat;
+                line-height: 23px;
+                font-weight: 900;
+                padding: 0 30px;
+                border: 1px solid rgba(50,50,50,.1);
+                outline-style: none;
+            }
+        }
+    }
+    
+    .cashback_partners{
+        display: flex;
+        justify-content: start;
+        margin: 0 0 2rem;
+    
+        .partner_box{
+            width: 19%;
+            background-color: #FAFAFA;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 0 calc(5%/10) 0.8rem;
+            cursor: pointer;
+    
+            .partner_image{
+                width: 40%;
+                height: 80px;
+                margin: 0 auto 2rem;
+    
+                img{
+                    width: 100%;
+                    vertical-align: bottom;
+                }
+            }
+    
+            .partner_info{
+                text-align: center;
+    
+                h2{
+                    font-size: 26px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #FF7A00;
+                }
+    
+                h4{
+                    font-size: 14px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+    
+                h6{
+                    font-size: 12px;
+                    font-family: montserrat;
+                    margin-top: 2px;
+                    color: #969696;
+                    margin-bottom: 1.5rem;
+                }
+    
+                p{
+                    font-size: 10px;
+                    font-family: montserrat;
+                    color: #969696;
+                    line-height: 10px !important;
+                }
+            }
+        }
+    }
+    
+    #loadMore{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: montserrat;
+        color: #FFFFFF;
+        background-color: #FF7A00;
+        padding: 16px 25px;
+        border-radius: 25px;
+        display: block;
+        width: 13.5%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .cashback_information{
+        background-color: #FAFAFA;
+        padding: 2rem 3.6rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+    
+        .cashback_tabs{
+            margin: 2rem 0 6rem;
+    
+            a{
+                text-decoration: none;
+                font-size: 14px;
+                font-family: bold;
+                color: #A1A1A1;
+                padding: 16px 25px;
+                border: 2px solid #969696;
+                border-radius: 25px;
+                margin-right: 10px;
+            }
+        }
+    
+        .cashback_context{
+            height: 600px;
+    
+            h6{
+                margin: 2rem 0;
+            }
+    
+            p{
+                font-size: 13px;
+                font-family: montserrat;
+            }
+        }
+    }
+    
+    .cashback_calculator{
+        padding: 2rem 3.6rem;
+        background-color: #FAFAFA;
+        border-radius: 10px;
+        margin-top: 1rem;
+        position: relative;
+    
+        .cashback_calc{
+            background-color: #FAFAFA;
+            padding: 2rem 8px;
+            border-radius: 10px;
+        
+            .select_options{
+                position: relative;
+                z-index: 695;
+        
+                p{
+                    font-size: 14px;
+                    font-family: montserrat;
+                    color: #000000;
+                }
+        
+                i{
+                    position: absolute;
+                    top: 62px;
+                    right: 40px;
+                    font-size: 12px;
+                    color: #FF7A00;
+                }
+        
+                select{
+                    width: 100%;
+                    border-radius: 30px;
+                    height: 60px !important;
+                    color: #FF7A00;
+                    font-size: 14px;
+                    font-family: montserrat;
+                    line-height: 23px;
+                    font-weight: 900;
+                    padding: 0 20px;
+                    border: 1px solid rgba(50,50,50,.1);
+                    outline-style: none;
+                    appearance: none;
+        
+                    option{
+                        font-size: 14px;
+                        font-weight: 900;
+                        font-family: montserrat;
+                        line-height: 23px;
+                    }
+                }
+        
+                input{
+                    width: 100%;
+                    border-radius: 30px;
+                    height: 60px !important;
+                    color: #FF7A00;
+                    font-size: 14px;
+                    font-family: montserrat;
+                    line-height: 23px;
+                    font-weight: 900;
+                    padding: 0 30px;
+                    border: 1px solid rgba(50,50,50,.1);
+                    outline-style: none;
+                    text-align: center;
+                }
+    
+                span{
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-family: montserrat;
+                    color: #FF7A00;
+                    position: absolute;
+                    top: 58px;
+                    right: 44px;
+                }
+            }
+    
+            .cashback_result{
+                margin-top: 3rem;
+                text-align: center;
+    
+                h1{
+                    font-size: 18px;
+                    color: #000000;
+                    font-weight: bold;
+                    font-family: montserrat;
+                }
+    
+                p{
+                    font-size: 48px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #FF7A00;
+                    margin-bottom: -4px;
+                }
+    
+                span{
+                    font-size: 16px;
+                    color: #000000;
+                    font-family: montserrat;
+                }
+            }
+        }
+    
+        img{
+            width: 15%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

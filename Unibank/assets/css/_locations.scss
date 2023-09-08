@@ -1,0 +1,117 @@
+.atm{
+    margin-bottom: 1rem;
+
+    h1{
+        font-size: 32px;
+        color: #FF6400;
+        font-family: boldpro;
+        margin-bottom: 1.6rem;
+    }
+
+    .locations{
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 64px;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-family: bold;
+            color: #A1A1A1;
+            padding: 15px 30px;
+            border: 2px solid #969696;
+            border-radius: 25px;
+            margin-right: 15px;
+            line-height: normal;
+            white-space: nowrap;
+        }
+    }
+}
+
+.map{
+    iframe{
+        width: 100%;
+        height: 360px;
+        border-radius: 10px;
+        filter: grayscale(0.8);
+    }
+}
+
+.all_branchs{
+    .branch{
+        margin: 1rem 1px 0;
+        background-color: #FAFAFA;
+        padding: 1.5rem 3rem;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: #FF6400;
+
+            h1, p, i{
+                color: #FFFFFF !important;
+            }
+        }
+
+        .branch_address{
+            h1{
+                font-size: 20px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #000000;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+                line-height: 14px;
+                margin-top: -6px;
+            }
+        }
+
+        .branch_info{
+            i{
+                font-size: 30px;
+                color: #FF6400;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+.branch_banner{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background-color: #FF6400;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+    i{
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+
+    p{
+        margin-left: 8px;
+        font-size: 14px;
+        font-family: montserrat;
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-top: 14px;
+    }
+}

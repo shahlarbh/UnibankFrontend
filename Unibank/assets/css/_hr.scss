@@ -1,0 +1,244 @@
+.page_title{
+    h1{
+        font-size: 36px;
+        font-family: boldpro;
+        color: #FF6400;
+    }
+}
+
+.hr_links{
+    margin: 1rem 0 -2rem;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 64px;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-family: bold;
+        color: #A1A1A1;
+        padding: 15px 30px;
+        border: 2px solid #969696;
+        border-radius: 25px;
+        margin-right: 15px;
+        line-height: normal;
+        white-space: nowrap;
+    }
+}
+
+.unibank_video{
+    height: 250px;
+    margin: 3rem 0 -1rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+
+    iframe{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        opacity: 0;
+    }
+
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+}
+
+.hr_information{
+    margin-top: 2rem;
+
+    .box{
+        background-color: #FAFAFA;
+        padding: 3rem;
+        height: 280px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: #FF6400;
+
+            .icon{
+                i{
+                    color: #FFFFFF;
+                }
+            }
+
+            .info{
+                h1, p{
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        .icon{
+            text-align: center;
+
+            i{
+                font-size: 48px;
+                color: #FF6400;
+            }
+        }
+
+        .info{
+            text-align: center;
+            margin-top: 16px;
+
+            h1{
+                font-size: 20px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #000000;
+            }
+
+            p{
+                font-size: 13px;
+                font-family: montserrat;
+                font-weight: 600;
+                line-height: 20px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.management{
+    margin-top: 2rem;
+
+    .person{
+        background-color: #FAFAFA;
+        padding: 3rem;
+        border-radius: 10px;
+        height: 400px;
+
+        .img{
+            width: 20%;
+            border-radius: 100%;
+
+            img{
+                width: 100%;
+                border-radius: 100%;
+            }
+        }
+
+        .info{
+            h1{
+                font-size: 20px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #000000;
+            }
+
+            span{
+                font-size: 14px;
+                font-family: montserrat;
+                color: rgba(0,0,0,.5);
+            }
+
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+                color: #000000;
+                line-height: 20px;
+                margin-top: 0.8rem;
+            }
+        }
+    }
+}
+
+.about_us{
+    margin-top: 1rem;
+    background-color: #FAFAFA;
+    padding: 3rem;
+    border-radius: 10px;
+
+    h1{
+        font-size: 36px;
+        font-family: boldpro;
+        color: #FF6400;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: montserrat;
+        text-align: justify;
+        color: #000000;
+        line-height: 18px;
+    }
+}
+
+.extention{
+    margin-top: 2rem;
+
+    .box{
+        padding: 2rem;
+        background-color: #FF6400;
+        border-radius: 10px;
+        height: 200px;
+        text-align: center;
+
+        .icon{
+            i{
+                color: #FFFFFF;
+                font-size: 48px;
+            }
+        }
+
+        .info{
+            margin-top: 1rem;
+
+            h1{
+                font-size: 14px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #FFFFFF;
+                line-height: 20px;
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.properties{
+    margin-top: 2rem;
+
+    h1{
+        font-size: 36px;
+        font-family: boldpro;
+        color: #FF6400;
+    }
+
+    .box{
+        margin-top: 1rem;
+
+        h1{
+            font-size: 20px;
+            font-family: montserrat;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        p{
+            font-size: 13px;
+            font-family: montserrat;
+            color: #000000;
+        }
+    }
+}

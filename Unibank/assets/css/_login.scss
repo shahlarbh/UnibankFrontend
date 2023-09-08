@@ -1,0 +1,221 @@
+.responsive_container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.login_container{
+    width: 1008px;
+    margin: 0 auto;
+}
+
+.login{
+    background-color: #FF6400;
+    overflow-x: scroll;
+
+    .login_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3rem 0 1rem;
+
+        .login_lang{
+            a{
+                text-decoration: none;
+                color: #E0E0E0;
+                font-size: 14px;
+                font-family: montserrat;
+                font-weight: bold;
+
+                &:hover{
+                    color: #FFFFFF;
+                }
+            }
+
+            .selected_lang{
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .all_content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+
+        .left_content{
+            width: 504px;
+            height: 600px;
+            background-color: #FAFAFA;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            box-shadow: -8px 3px 12px 4px rgba(0,0,0,0.08);
+
+            .disp-none{
+                display: none;
+            }
+
+            .box{
+                width: 320px;
+                margin: 6rem auto 0;
+
+                p{
+                    font-size: 18px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                }
+
+                img{
+                    width: 320px;
+                    border-radius: 10px;
+                }
+
+            }
+
+            .card_control{
+                width: 10%;
+                margin: 3rem auto 0;
+                display: flex;
+
+                span{
+                    cursor: pointer;
+                    width: 14px !important;
+                    height: 14px !important;
+                    margin: 0 2px;
+                    background-color: #FFFFFF;
+                    border-radius: 100%;
+                    border: 1px solid #BABABA;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+
+                .selected_card{
+                    background-color: #FF6400;
+                }
+            }
+        }
+
+        .right_content{
+            width: 505px;
+            height: 600px;
+            background-color: #FFFFFF;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            box-shadow: -8px 3px 12px 4px rgba(0,0,0,0.08);
+            padding: 0 4rem;
+
+            p{
+                font-size: 20px;
+                font-family: montserrat;
+                font-weight: bold;
+                margin: 6rem 0 2rem;
+            }
+
+            form{
+                .login_input{
+                    position: relative;
+
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        width: 0;
+                        height: 2px;
+                        background-color: #FF6400;
+                        transition: 0.5s;
+                    }
+
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        right: 50%;
+                        width: 0;
+                        height: 2px;
+                        background-color: #FF6400;
+                        transition: 0.5s;
+                    }
+
+                    &:hover::before{
+                        width: 50%;
+                    }
+
+                    &:hover::after{
+                        width: 50%;
+                    }
+
+                    input{
+                        display: block;
+                        margin-bottom: 1rem;
+                        padding: 1rem 0;
+                        width: 100%;
+                        font-size: 16px;
+                        font-family: montserrat;
+                        outline-style: none;
+                        border: none;
+                        border-bottom: 3px solid #FAFAFA;
+                    }
+
+                    .error{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 0;
+                        width: 6%;
+                        cursor: pointer;
+                    }
+
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 0;
+                    }
+                }
+
+                button{
+                    position: relative;
+                    margin-top: 2rem;
+                    font-size: 16px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    background-color: #FF6400;
+                    border-radius: 5px;
+                    outline-style: none;
+                    border: none;
+                    height: 64px;
+                    width: 100%;
+
+                    i{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 25px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .forgotten{
+                font-size: 12px;
+                font-family: montserrat;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 20px;
+            }
+
+            .register{
+                font-size: 12px;
+                font-family: montserrat;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                margin: 4px 0 0;
+            }
+        }
+    }
+}

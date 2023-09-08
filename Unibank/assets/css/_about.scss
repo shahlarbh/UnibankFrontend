@@ -1,0 +1,151 @@
+.bank_info{
+    p{
+        font-size: 14px;
+        font-family: montserrat;
+        color: #000000;
+
+        a{
+            color: #FF6400;
+        }
+    }
+
+    .refresh{
+        color: #A6ADB2;
+        margin-top: -10px;
+    }
+
+    .main_value{
+        margin: 3rem 0;
+
+        h2{
+            font-size: 14px;
+            font-family: montserrat;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        p{
+            margin-bottom: 2px;
+        }
+    }
+}
+
+.bank_banner{
+    background-color: #FF6400;
+    padding: 20px 40px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 3rem 1px 0;
+
+    .banner_icon{
+        i{
+            font-size: 60px;
+            color: #FFFFFF;
+        }
+    }
+
+    .banner_info{
+        font-size: 14px;
+        font-family: montserrat;
+        font-weight: bold;
+        color: #FFFFFF;
+        line-height: 18px;
+    }
+}
+
+.bank_boxes{
+    margin-top: 2rem;
+
+    .bank_box{
+        padding: 4rem 3rem;
+        background-color: #FAFAFA;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        height: 300px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            background-color: #FF6400;
+
+            h1, p, i{
+                color: #FFFFFF !important;
+            }
+        }
+
+        .bank_icon{
+            text-align: center;
+            margin-bottom: 1.5rem;
+
+            i{
+                font-size: 48px;
+                color: #FF6400;
+            }
+        }
+
+        .bank_content{
+            text-align: center;
+
+            h1{
+                font-size: 20px;
+                font-family: montserrat;
+                font-weight: bold;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+            }
+        }
+    }
+}
+
+.bottom_box{
+    margin-top: 2rem;
+
+    .box_title{
+        h1{
+            font-size: 32px;
+            font-family: boldpro;
+            color: #FF6400;
+        }
+    }
+
+    .box_info{
+        font-size: 14px;
+        font-family: montserrat;
+        color: #000000;
+        margin-top: 1rem;
+
+        a{
+            color: #000000;
+        }
+    }
+}
+
+.awards{
+    margin-top: 2rem;
+
+    .awards_title{
+        margin-bottom: 1rem;
+
+        h1{
+            font-size: 32px;
+            font-family: boldpro;
+            color: #FF6400;
+        }
+    }
+
+    .awards_boxes{
+        .box_image{
+            height: 60px;
+        }
+
+        .box_info{
+            font-size: 14px;
+            font-family: montserrat;
+            color: #000000;
+            margin-top: 8px;
+        }
+    }
+}

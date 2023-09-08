@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şəxsi kabinetə giriş / Unibank</title>
+    <link rel="icon" href="assets/image/apple-touch-icon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="login">
+    <div class="responsive_container">
+        <div class="login_container">
+            <!-- Header -->
+            <header class="login_header">
+                <div class="login_logo">
+                    <a href="index.html"><img src="assets/image/logo_unibank.png" alt=""></a>
+                </div>
+                <div class="login_lang">
+                    <a href="#" class="selected_lang">AZE</a>
+                    <a href="#">ENG</a>
+                    <a href="#">RUS</a>
+                </div>
+            </header>
+            <!-- End of the header -->
+            <main>
+                <section>
+                    <div class="all_content">
+                        <div class="left_content">
+                            <div class="box" id="1">
+                                <p>UCard</p>
+                                <img src="assets/image/ucardjpg.jpg" alt="">
+                            </div>
+                            <div class="box d-none" id="2">
+                                <p>Albalı Premium</p>
+                                <img src="assets/image/1albali_new.jpg" alt="">
+                            </div>
+                            <div class="box d-none" id="3">
+                                <p>Albalı Debit</p>
+                                <img src="assets/image/albali_new_debit.jpg" alt="">
+                            </div>
+                            <div class="box d-none" id="4">
+                                <p>Albalı Kredit</p>
+                                <img src="assets/image/3albali_new.jpg" alt="">
+                            </div>
+                            <div class="card_control">
+                                <span data-id="1" class="selected_card"></span>
+                                <span data-id="2"></span>
+                                <span data-id="3"></span>
+                                <span data-id="4"></span>
+                            </div>
+                        </div>
+                        <div class="right_content">
+                            <p>Şəxsi kabinetə giriş</p>
+                            <form action="">
+                                <div class="login_input">
+                                    <input type="text" required placeholder="İstifadəçi adı">
+                                </div>
+                                <div class="login_input">
+                                    <input type="password" required placeholder="Şifrə">
+                                    <img class="error" src="assets/image/info.png" alt="">
+                                </div>
+                                <div class="login_input">
+                                    <input type="text" required placeholder="Kodu daxil edin">
+                                    <img src="https://onlineservices.unibank.az/PersonalCabinet/captcha?attr=4cf42f76-b05a-4834-a522-719a8d0e5fb5" alt="">
+                                </div>
+                                <button type="submit">Daxil ol <i class="fa-solid fa-chevron-right"></i></button>
+                            </form>
+                            <a href="forgottenpassword.html" class="forgotten">Şifrəni unutmusan?</a>
+                            <a href="registration.html" class="register">Qeydiyyatdan keç</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

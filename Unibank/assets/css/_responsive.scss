@@ -1,0 +1,5668 @@
+@media (max-width:576px) {
+    .custom_container{
+        width: 384px;
+        margin: 0 auto;
+    }
+
+    .nonresponsive_container{
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .chat_scroll{
+        overflow-y: hidden !important;
+        width: 100% !important;
+    }
+
+    header{
+        .first_header, .second_header{
+            display: none;
+        }
+
+        .mobile_header{
+            display: block !important;
+            display: flex !important;
+            justify-content: space-between;
+            padding-top: 1rem;
+            align-items: center;
+            height: 48px !important;
+
+            .hamburger_menu{
+                i{
+                    font-size: 20px;
+                    background-color: #F5F5F6;
+                    padding: 12px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .logo{
+                width: 8%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+
+            .phone{
+                a{
+                    text-decoration: none;
+                    padding: 12px 16px;
+                    background-color: #F5F5F6;
+                    border-radius: 25px;
+    
+                    i{
+                        font-size: 16px;
+                        color: #FF6400;
+                    }
+    
+                    span{
+                        font-size: 14px;
+                        font-family: poppins;
+                        font-weight: bold;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .hamburger_panel{
+            display: block !important;
+            background-color: #FAFAFA;
+            width: 100% !important;
+            z-index: 1 !important;
+            position: absolute;
+            top: -555%;
+            height: calc(100vh - 64px);
+            overflow-y: scroll;
+            box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+            transition: 1s;
+
+            .menu_hamburger{
+                width: 100% !important;
+                margin: 1rem 0 !important;
+                display: flex;
+                justify-content: center;
+
+                a{
+                    text-decoration: none;
+                    font-size: 12px;
+                    font-family: regular;
+                    color: #323232;
+                    padding: 10px 20px;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                }
+            }
+
+            .navigation_menu{
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #000000;
+                    font-size: 20px;
+                    font-family: bold;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .navbar_menu{
+                margin-bottom: 3rem !important;
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: rgba(0,0,0,.4);
+                    font-size: 14px;
+                    font-family: regular;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .option_menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3rem !important;
+
+                .theme_hamburger{
+                    margin-right: 0.8rem !important;
+
+                    i{
+                        font-size: 16px;
+                        padding: 8px 10px 9px 10px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .moon{
+                        color: #FFFFFF;
+                        background-color: #323232;
+                    }
+    
+                    .sun{
+                        color: #323232;
+                        background-color: #FFFFFF;
+                    }
+                }
+
+                .responsive_search{
+                    margin-right: 0.8rem;
+
+                    span{
+                        i{
+                            font-size: 16px;
+                            color: #323232;
+                            padding: 8px 10px 11px 10px;
+                            border-radius: 5px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .responsive_language{
+                    margin-right: 0.8rem;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-family: bold;
+                        color: #323232;
+                        background-color: #FFFFFF;
+                        padding: 10px 8px 8px;
+                        margin-right: 5px;
+                        border-radius: 5px;
+                        box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        section{
+
+            // Index page responsive
+
+            .slider_page{
+                display: none !important;
+            }
+
+            .mobile_slider_page{
+                display: block !important;
+                background-color: #FF6400;
+                height: 420px;
+                border-radius: 15px;
+                flex-basis: 100%;
+                position: relative;
+
+                .slider_img{
+                    width: 48%;
+                    margin: auto;
+                    position: absolute;
+                    bottom: 0 !important;
+
+                    img{
+                        width: 100%;
+                        margin-left: 7rem;
+                    }
+                }
+
+                .slider_info{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 2rem;
+                    
+                    h1{
+                        font-size: 22px;
+                        width: 85%;
+                        margin: 0 auto 10px;
+                        font-family: boldpro;
+                        color: #FFFFFF;
+                    }
+                    
+                    p{
+                        font-size: 13px;
+                        color: #FFFFFF;
+                        font-weight: 500;
+                        width: 85%;
+                        margin: 0 auto 2rem;
+                    }
+                    
+                    a{
+                        font-size: 12px;
+                        font-family: bold;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        border: 1px solid #FFFFFF;
+                        padding: 16px 25px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .carusel_control{
+                ul{
+                    bottom: -25px !important;
+                }
+            }
+
+            .info{
+                margin-top: 10px !important;
+                .box{
+                    padding: 1.5rem 0 !important;
+        
+                    h4{
+                        font-size: 14px !important;
+                        margin-bottom: 0.5rem !important;
+                    }
+        
+                    h2{
+                        font-size: 30px !important;
+                    }
+        
+                    span{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                    }
+        
+                    a{
+                        font-size: 12px !important;
+                        padding: 10px 16px !important;
+                        width: 50% !important;
+                    }
+                }
+            }
+
+            .ucard{
+                margin: 4rem 0 !important;
+                height: 510px !important;
+                padding: 1rem !important;
+                display: block !important;
+
+                .card_image{
+                    position: relative;
+                    width: 100% !important;
+                    height: 140px !important;
+
+                    img{
+                        width: 100% !important;
+                        position: absolute;
+                        top: -75px !important;
+                    }
+                }
+
+                .card_info{
+                    margin: 0 1.2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                        width: 100% !important;
+                        font-weight: 500 !important;
+                        line-height: 18px !important;
+                    }
+
+                    .ucard_comp{
+                        display: none !important;
+                    }
+
+                    .ucard_resp{
+                        display: block !important;
+
+                        .ucard_flex{
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            margin-top: -10px !important;
+
+                            a{
+                                display: block !important;
+                                width: 49.5% !important;
+                                text-align: center;
+                                padding: 15px 10px !important;
+                            }
+                        }
+                    }
+
+                    .various{
+                        display: block;
+                        text-align: center;
+                        font-size: 12px !important;
+                        width: 100% !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 14px 39px !important;
+                        margin: auto 0 !important;
+                    }
+                }
+            }
+
+            .ubank{
+                margin-top: -40px !important;
+                height: 600px !important;
+                display: block !important;
+
+                .ubank_info{
+                    margin: 0 !important;
+                    padding: 2rem 2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro;
+                    }
+
+                    .comp_version{
+                        display: none;
+                    }
+
+                    .mobile_version{
+                        display: block !important;
+
+                        .icons{
+                            margin-bottom: 1rem !important;
+
+                            img{
+                                width: 28%;
+                            }
+                        }
+
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 15px 30px !important;
+                    }
+                }
+
+                .app_image{
+                    width: 100% !important;
+                    bottom: -45px !important;
+                    left: -60px !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .currency{
+                padding: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                .currency_tabmenu{
+                    display: block !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        padding: 12px 18px;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .currency_box{
+                    .display_none{
+                        display: none !important;
+                    }
+
+                    .box{
+                        h4{
+                            display: none !important;
+                        }
+
+                        p{
+                            margin: 2rem 0 3rem !important;
+                        }
+
+                        table{
+                            width: 100% !important;
+                        }
+                    }
+                }
+
+                .currency_calc{
+                    display: block !important;
+                    margin: 1rem 0 !important;
+                    padding: 2rem 1.4rem !important;
+
+                    .currency_info{
+                        width: 100% !important;
+                        margin-bottom: 1rem !important;
+
+                        h2{
+                            font-size: 18px !important;
+                        }
+                    }
+
+                    .cross_arrow{
+                        display: none;
+                    }
+
+                    .calc_operations{
+                        margin-bottom: 0.5rem;
+                        display: flex;
+
+                        .calc_div{
+                            position: relative;
+
+                            .calc_input{
+                                input{
+                                    padding: 1rem 0.8rem !important;
+                                    width: 275px !important;
+                                    font-size: 18px !important;
+                                }
+                            }
+
+                            .currency_div{
+                                position: absolute;
+                                right: 30px !important;
+
+                                .main_box{
+                                    i{
+                                        margin-left: 1px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .news{
+                .box{
+                    padding: 2rem !important;
+
+                    h4{
+                        font-size: 14px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1rem;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+
+                a{
+                    font-size: 14px !important;
+                    padding: 14px !important;
+                    width: 35% !important;
+                }
+            }
+
+            .connection{
+                display: block !important;
+
+                .location{
+                    width: 100% !important;
+                    margin-bottom: 1rem !important;
+                    padding: 2rem !important;
+                    height: 240px !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1rem !important;
+                    }
+
+                    p{
+                        width: 75% !important;
+                        font-size: 13px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        width: 35% !important;
+                        padding: 12px 18px !important;
+                    }
+
+                    img{
+                        position: absolute;
+                        top: 80px !important;
+                        right: 45px !important;
+                        width: 38% !important;
+                    }
+                }
+
+                .call_center{
+                    width: 100% !important;
+                    height: 240px !important;
+                    padding: 2rem !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        width: 100% !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1rem !important;
+                    }
+
+                    p{
+                        font-size: 13px !important;
+                        width: 100% !important;
+                        line-height: 20px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        width: 35% !important;
+                        padding: 12px 18px !important;
+                    }
+                }
+            }
+
+            // Cards page responsive
+
+            .title{
+                h1{
+                    font-size: 24px !important;
+                }
+            }
+
+            .ucard_panel{
+                padding: 2rem !important;
+                height: 480px !important;
+
+                .ucard_image{
+                    width: 100% !important;
+                    margin-bottom: -40px !important;
+                }
+
+                .ucard_header{
+                    position: relative !important;
+
+                    .ucard_title{
+                        width: 100% !important;
+
+                        h1{
+                            text-align: center !important;
+                            font-size: 20px !important;
+                        }
+                    }
+                    
+                    .ucard_link{
+                        position: absolute !important;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: -170px !important;
+
+                        a{
+                            font-size: 12px !important;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .ucard_parametrs{
+                    .box{
+                        margin-top: -30px !important;
+
+                        i{
+                            font-size: 32px;
+                            display: flex;
+                            justify-content: center;
+                            margin-bottom: 0.4rem !important;
+                        }
+
+                        p{
+                            font-size: 16px;
+                            line-height: 14px;
+                            text-align: center;
+                            width: 70%;
+                            margin-left: 0.5rem;
+                        }
+                    }
+                }
+
+                p{
+                    text-align: center !important;
+                    font-size: 12px !important;
+                }
+            }
+
+            .ubank_cards{
+                .box{
+                    padding: 2rem;
+                    height: 460px;
+
+                    .ubank_image{
+                        width: 100%;
+                    }
+
+                    .ubank_infobox{
+                        margin-bottom: -30px;
+
+                        h2{
+                            text-align: center !important;
+                            font-size: 18px !important;
+                        }
+            
+                        p{
+                            text-align: center !important;
+                            font-size: 12px !important;
+                            line-height: 16px !important;
+                        }
+                    }
+
+                    a{
+                        display: block !important;
+                        width: 40% !important;
+                        margin: 0 auto !important;
+                        font-size: 12px;
+                        text-align: center !important;
+                    }
+
+                    .ubank_connection{
+                        display: flex;
+                        justify-content: center;
+
+                        a{
+                            margin: 0 5px !important;
+                        }
+                    }
+                }
+            }
+
+            // Cashback page responsive
+
+            .cashback_info{
+                p{
+                    font-size: 11px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            .responsive_tabmenu{
+                display: block !important;
+                position: relative !important;
+                align-items: center !important;
+                margin-top: 2rem !important;
+
+                span{
+                    font-size: 24px !important;
+                    font-family: boldpro !important;
+                    color: #FF6400 !important;
+                }
+
+                i{
+                    position: absolute !important;
+                    right: 0 !important;
+                    font-size: 16px !important;
+                    color: #FFFFFF !important;
+                    background-color: #FF6400 !important;
+                    padding: 8px !important;
+                    border-radius: 100% !important;
+                    cursor: pointer !important;
+                }
+            }
+
+            .steels{
+                display: none;
+            }
+
+            .cashback_header{
+                margin-top: 0.5rem !important;
+
+                .select_options{
+                    i{
+                        top: 60px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+
+            .cashback_partners{
+                display: block !important;
+
+                .partner_box{
+                    width: 100% !important;
+                    position: relative !important;
+                    height: 120px !important;
+
+                    .partner_image{
+                        width: 20% !important;
+                        position: absolute;
+                        top: 50% !important;
+                        transform: translateY(-50%) !important;
+                        left: 2rem !important;
+                    }
+
+                    .partner_info{
+                        position: absolute;
+                        top: 50% !important;
+                        transform: translateY(-50%) !important;
+                        left: 35% !important;
+                        text-align: start !important;
+                        width: 65% !important;
+
+                        h2{
+                            position: absolute;
+                            top: 50% !important;
+                            transform: translateY(-50%) !important;
+                            right: 20px !important;
+                            font-size: 18px !important;
+                        }
+
+                        h4{
+                            width: 100% !important;
+                            font-size: 12px !important;
+                            margin-bottom: 6px !important;
+                        }
+
+                        h6{
+                            font-size: 11px !important;
+                        }
+
+                        p{
+                            margin-top: -8px !important;
+                        }
+                    }
+                }
+            }
+
+            #loadMore{
+                width: 41% !important;
+            }
+
+            .cashback_information{
+                display: none !important;
+            }
+
+            .responsive_cashback{
+                display: block !important;
+                background-color: #FAFAFA !important;
+                padding: 2rem !important;
+                border-radius: 10px !important;
+                margin-top: 2rem !important;
+
+                .responsive_cashback_tabs{
+                    position: relative;
+                    margin-top: 1rem !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 12px !important;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        display: block !important;
+                        width: 100% !important;
+                        padding: 12px 25px !important;
+                    }
+
+                    i{
+                        position: absolute;
+                        right: 20px !important;
+                        top: 11px !important;
+                        font-size: 10px !important;
+                        padding: 4px !important;
+                        border: 2px solid #969696;
+                        border-radius: 100%;
+                    }
+                }
+
+                .cashback_context{
+                    h6{
+                        font-size: 14px !important;
+                        margin-top: 3rem !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        font-family: montserrat;
+                        margin-bottom: 2rem !important;
+                    }
+                }
+            }
+
+            .cashback_calculator{
+                padding: 2rem !important;
+
+                .cashback_calc{
+                    padding: 0 !important;
+
+                    .select_options{
+                        p{
+                            font-size: 12px !important;
+                        }
+
+                        span{
+                            top: 55px !important;
+                        }
+                    }
+
+                    .cashback_result{
+                        p{
+                            font-size: 32px !important;
+                        }
+
+                        span{
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+
+                img{
+                    width: 50% !important;
+                }
+            }
+
+            // Location page responsive
+
+            .atm{
+                margin-bottom: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                    margin-top: 28px !important;
+                }
+
+                .locations{
+                    height: 60px !important;
+                    margin-bottom: -30px;
+
+                    a{
+                        padding: 12px 18px;
+                        font-size: 12px;
+                        line-height: normal;
+                        white-space: nowrap;
+                    }
+
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                }
+            }
+
+            .branch{
+                padding: 1rem !important;
+
+                h1{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+
+                i{
+                    font-size: 18px !important;
+                }
+
+                .branch_info{
+                    p{
+                        font-size: 10px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            .branch_banner{
+                padding: 0.5rem 1rem !important;
+
+                i{
+                    font-size: 20px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    margin-top: 20px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            // Digital banking page responsive
+
+            .digital_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .digital_icon{
+                    width: 15% !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px !important;
+                    color: #969696;
+                }
+
+                .digital_info{
+                    width: 82% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Contacts page responsive
+
+            .contacts_title{
+                margin-top: 1.5rem !important;
+
+                h1{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            .contact_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 120px !important;
+                position: relative;
+
+                .contact_icon{
+                    width: 15% !important;
+                    margin: auto !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px !important;
+                    color: #969696;
+                }
+
+                .contact_info{
+                    width: 80% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Services page responsive
+
+            .service_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 120px !important;
+                position: relative;
+
+                .service_icon{
+                    width: 15% !important;
+                    margin: auto 0 !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px !important;
+                    color: #969696;
+                }
+
+                .service_info{
+                    width: 82% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // HR page responsive
+
+            .page_title{
+                margin-top: 1.5rem;
+
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .hr_links{
+                height: 60px !important;
+                margin-bottom: -30px;
+
+                a{
+                    padding: 12px 18px;
+                    font-size: 12px;
+                    line-height: normal;
+                    white-space: nowrap;
+                }
+
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+
+            .unibank_video{
+                height: 180px;
+                margin-bottom: -30px !important;
+
+                iframe{
+                    height: 180px;
+                }
+            }
+
+            .hr_information{
+                .box{
+                    position: relative;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem 1.5rem !important;
+                    height: 130px !important;
+                    margin-bottom: -15px !important;
+
+                    .icon{
+                        width: 10% !important;
+                        margin: auto 0 !important;
+
+                        i{
+                            font-size: 36px !important;
+                        }
+                    }
+
+                    .info{
+                        position: absolute;
+                        width: 70% !important;
+                        text-align: start !important;
+                        left: 22% !important;
+
+                        h1{
+                            font-size: 14px !important;
+                            margin-bottom: 4px !important;
+                        }
+
+                        p{
+                            font-size: 11px !important;
+                            font-weight: 400 !important;
+                            line-height: 14px !important;
+                        }
+                    }
+
+                    .direction{
+                        display: block !important;
+                        position: absolute !important;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 20px !important;
+
+                        i{
+                            font-size: 11px !important;
+                            color: #969696 !important;
+                        }
+                    }
+                }
+            }
+
+            .management{
+                .person{
+                    height: 320px !important;
+                    padding: 2rem 1.5rem !important;
+                    margin-bottom: 1rem !important;
+
+                    .img{
+                        width: 30% !important;
+                    }
+
+                    .info{
+                        margin-top: 1rem !important;
+
+                        h1{
+                            font-size: 14px !important;
+                            margin-bottom: 0 !important;
+                        }
+
+                        span{
+                            font-size: 10px !important;
+                        }
+
+                        p{
+                            font-size: 11px !important;
+                            margin-top: 4px !important;
+                            line-height: 16px !important;
+                        }
+                    }
+                }
+            }
+
+            .about_us{
+                margin-top: 0.5rem !important;
+                padding: 2rem 1.5rem !important;
+
+                h1{
+                    font-size: 20px !important;
+                }
+
+                p{
+                    font-size: 11px !important;
+                    line-height: 14px !important;
+                    text-align: start !important;
+                }
+            }
+
+            .extention{
+                margin-top: 1rem !important;
+
+                .box{
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem 1.5rem !important;
+                    height: 60px !important;
+                    align-items: center !important;
+                    margin-bottom: 0.5rem !important;
+
+                    .icon{
+                        width: 10%;
+
+                        i{
+                            font-size: 30px !important;
+                        }
+                    }
+
+                    .info{
+                        width: 85% !important;
+                        text-align: start !important;
+
+                        h1{
+                            font-size: 12px !important;
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+
+            .properties{
+                margin-top: 1rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                .box{
+                    margin-top: 0.5rem !important;
+
+                    h1{
+                        font-size: 14px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            // Vacancies page responsive
+
+            .vacancies{
+                .vacancy{
+                    padding: 2rem 1rem !important;
+                    margin: 0 1px 1rem !important;
+
+                    .vacancy_info{
+                        h1{
+                            font-size: 15px !important;
+                        }
+        
+                        p{
+                            font-size: 11px !important;
+                            margin-bottom: 1.5rem !important;
+                        }
+                    }
+        
+                    .vacancy_link{
+                        a{
+                            font-size: 13px !important;
+                            padding: 14px 22px !important;
+        
+                            i{
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Transfers page responsive
+
+            .transfer_title{
+                margin-top: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .transfer_link{
+                a{
+                    font-size: 12px !important;
+                    padding: 10px 20px !important;
+                }
+            }
+
+            #various_box{
+                height: 360px !important;
+            }
+
+            .transfers{
+                padding: 2rem 1rem !important;
+                height: 600px !important;
+
+                .transfer_img{
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .transfer_info{
+                    h1{
+                        font-size: 20px !important;
+                    }
+
+                    p{
+                        margin-bottom: 2px !important;
+                    }
+
+                    .description{
+                        margin-top: 1.5rem !important;
+                        line-height: 19px !important;
+                    }
+
+                    .direction{
+                        a{
+                            font-size: 14px !important;
+                            padding: 12px 20px !important;
+
+                            i{
+                                font-size: 11px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Tarifs page responsive
+
+            .tarifs_title{
+                h1{
+                    font-size: 22px !important;
+                }
+            }
+
+            .tarif_box{
+                position: relative;
+                padding: 1rem !important;
+
+                h2{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 10px !important;
+                }
+
+                .tarif_link{
+                    position: absolute !important;
+                    top: 50% !important;
+                    transform: translateY(-50%) !important;
+                    right: 11% !important;
+
+                    a{
+                        padding: 12px 22px !important;
+                        border-radius: 100% !important;
+                        position: relative;
+
+                        span{
+                            display: none !important;
+                        }
+    
+                        i{
+                            margin: 0 !important;
+                            position: absolute;
+                            top: 50% !important;
+                            left: 50% !important;
+                            transform: translate(-50%,-50%) !important;
+                        }
+                    }
+                }
+            }
+
+            // Credits page responsive
+
+            .credits{
+                margin-top: -20px !important;
+
+                .credit_box{
+                    padding: 2rem !important;
+                    height: 280px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // Deposits page responsive
+
+            .deposits{
+                margin-top: -20px !important;
+
+                .deposit_box{
+                    padding: 2rem !important;
+                    height: 260px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // About page responsive
+
+            .bank_info{
+                h2, p{
+                    font-size: 12px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            .bank_banner{
+                margin: 0 1px !important;
+                padding: 20px !important;
+
+                .banner_info{
+                    margin-top: 1rem !important;
+                    font-size: 13px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .bank_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 1.5rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .bank_icon{
+                    width: 15% !important;
+                    margin: auto 0 !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px !important;
+                    color: #969696;
+                }
+
+                .bank_content{
+                    width: 82% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-top: 5px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            .bottom_box{
+                .box{
+                    margin-bottom: 1rem;
+
+                    h1{
+                        font-size: 22px !important;
+                    }
+
+                    .box_info{
+                        font-size: 12px !important;
+                        line-height: 16px !important;
+                    }
+                }
+            }
+
+            .awards{
+                .awards_title{
+                    h1{
+                        font-size: 22px !important;
+                    }
+                }
+
+                .box{
+                    margin-bottom: 1rem !important;
+                }
+
+                .box_image{
+                    width: 168px !important;
+
+                    img{
+                        max-width: 168px !important;
+                    }
+                }
+
+                .box_info{
+                    font-size: 12px !important;
+                }
+            }
+
+            // News page responsive
+
+            .news_box{
+                h1{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            // Cashback details resonsive
+
+            .cashback_box{
+                display: none;
+            }
+
+            .mobile_cashback{
+                display: block !important;
+                background-color: #FAFAFA;
+                padding: 2rem;
+                margin-top: 24px;
+                border-radius: 10px;
+                text-align: center;
+
+                h1{
+                    font-size: 18px !important;
+                    font-family: montserrat;
+                    font-weight: bold !important;
+                    color: #000000 !important;
+                    margin-bottom: -4px !important;
+                }
+
+                span{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    color: #000000;
+                }
+
+                .mobile_image{
+                    width: 70% !important;
+                    margin: 24px auto 0 !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .mobile_discount{
+                    h1{
+                        font-size: 52px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #FF6400 !important;
+                    }
+
+                    p{
+                        font-size: 10px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #32323280;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .all_footer{
+            display: none !important;
+        }
+
+        .footer_icons{
+            display: flex;
+            justify-content: center;
+
+            a{
+                margin: 0 4px !important;
+            }
+        }
+
+        .footer_end{
+            flex-direction: column-reverse;
+
+            .right_end{
+                margin-bottom: 3rem;
+            }
+
+            .left_end{
+                h4{
+                    font-size: 14px !important;
+                    font-family: montserrat !important;
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 10px !important;
+                    font-family: montserrat !important;
+                    text-align: center;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+
+    .chat_icon{
+        font-size: 24px !important;
+        padding: 16px !important;
+    }
+
+    .unibank_chat{
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        overflow-y: scroll !important;
+        border-radius: 0 !important;
+
+        .chat_header{
+            border-radius: 0 !important;
+        }
+
+        .chat_title{
+            display: block !important;
+            width: 75% !important;
+            text-align: center;
+            margin: -20px auto 0 !important;
+        }
+
+        .close_chat{
+            position: absolute;
+            top: 50% !important;
+            right: 5% !important;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .custom_container{
+        width: 564px;
+        margin: 0 auto;
+    }
+
+    .nonresponsive_container{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .chat_scroll{
+        overflow-y: hidden !important;
+        width: 100% !important;
+    }
+
+    header{
+        .first_header, .second_header{
+            display: none;
+        }
+
+        .mobile_header{
+            display: block !important;
+            display: flex !important;
+            justify-content: space-between;
+            padding-top: 1rem;
+            align-items: center;
+            height: 48px !important;
+
+            .hamburger_menu{
+                i{
+                    font-size: 20px;
+                    background-color: #F5F5F6;
+                    padding: 12px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .logo{
+                width: 6%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+
+            .phone{
+                a{
+                    text-decoration: none;
+                    padding: 12px 16px;
+                    background-color: #F5F5F6;
+                    border-radius: 25px;
+    
+                    i{
+                        font-size: 16px;
+                        color: #FF6400;
+                    }
+    
+                    span{
+                        font-size: 14px;
+                        font-family: poppins;
+                        font-weight: bold;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .hamburger_panel{
+            display: block !important;
+            background-color: #FAFAFA;
+            width: 100% !important;
+            z-index: 1 !important;
+            position: absolute;
+            top: -555%;
+            height: calc(100vh - 64px);
+            overflow-y: scroll;
+            box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+            transition: 1s;
+
+            .menu_hamburger{
+                width: 100% !important;
+                margin: 1rem 0 !important;
+                display: flex;
+                justify-content: center;
+
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-family: regular;
+                    color: #323232;
+                    padding: 10px 22px !important;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                }
+            }
+
+            .navigation_menu{
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #000000;
+                    font-size: 20px;
+                    font-family: bold;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .navbar_menu{
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: rgba(0,0,0,.4);
+                    font-size: 14px;
+                    font-family: regular;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .option_menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3rem;
+                margin-bottom: 5rem !important;
+
+                .theme_hamburger{
+                    margin-right: 0.8rem !important;
+
+                    i{
+                        font-size: 16px;
+                        padding: 8px 10px 9px 10px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .moon{
+                        color: #FFFFFF;
+                        background-color: #323232;
+                    }
+    
+                    .sun{
+                        color: #323232;
+                        background-color: #FFFFFF;
+                    }
+                }
+
+                .responsive_search{
+                    margin-right: 0.8rem;
+
+                    span{
+                        i{
+                            font-size: 16px;
+                            color: #323232;
+                            padding: 8px 10px 11px 10px;
+                            border-radius: 5px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .responsive_language{
+                    margin-right: 0.8rem;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-family: bold;
+                        color: #323232;
+                        background-color: #FFFFFF;
+                        padding: 10px 8px 8px;
+                        margin-right: 5px;
+                        border-radius: 5px;
+                        box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        section{
+
+            // Index page responsive
+
+            .slider_page{
+                display: none !important;
+            }
+
+            .mobile_slider_page{
+                display: block !important;
+                background-color: #FF6400;
+                height: 420px;
+                border-radius: 15px;
+                flex-basis: 100%;
+                position: relative;
+
+                .slider_img{
+                    width: 44%;
+                    margin: auto;
+                    position: absolute;
+                    bottom: 0 !important;
+
+                    img{
+                        width: 100%;
+                        margin-left: 8.5rem;
+                    }
+                }
+
+                .slider_info{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 2rem;
+                    
+                    h1{
+                        font-size: 22px;
+                        width: 100% !important;
+                        font-family: boldpro;
+                        color: #FFFFFF;
+
+                        br{
+                            display: none !important;
+                        }
+                    }
+                    
+                    p{
+                        font-size: 13px;
+                        color: #FFFFFF;
+                        font-weight: 500;
+                        width: 75%;
+                        margin: 0 auto 2rem;
+                    }
+                    
+                    a{
+                        font-size: 14px;
+                        font-family: bold;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        border: 1px solid #FFFFFF;
+                        padding: 16px 25px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .carusel_control{
+                ul{
+                    bottom: -25px !important;
+                }
+            }
+
+            .info{
+                margin-top: 10px !important;
+
+                .box{
+                    padding: 1.5rem 0 !important;
+        
+                    h4{
+                        font-size: 16px !important;
+                        margin-bottom: 1rem !important;
+                    }
+        
+                    h2{
+                        font-size: 36px !important;
+                    }
+        
+                    span{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                    }
+        
+                    a{
+                        font-size: 12px !important;
+                        padding: 12px 16px !important;
+                        width: 40% !important;
+                    }
+                }
+            }
+
+            .ucard{
+                margin: 4rem 0 !important;
+                height: 600px !important;
+                padding: 1rem !important;
+                display: block !important;
+
+                .card_image{
+                    position: relative;
+                    width: 100% !important;
+                    height: 160px !important;
+                    margin-bottom: 11rem !important;
+
+                    img{
+                        width: 90% !important;
+                        position: absolute;
+                        top: -90px !important;
+                    }
+                }
+
+                .card_info{
+                    margin: 0 1.2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                        width: 100% !important;
+                        font-weight: 500 !important;
+                        line-height: 18px !important;
+                    }
+
+                    .ucard_comp{
+                        display: none !important;
+                    }
+
+                    .ucard_resp{
+                        display: block !important;
+
+                        .ucard_flex{
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            margin-top: -10px !important;
+
+                            a{
+                                display: block !important;
+                                width: 49.5% !important;
+                                text-align: center;
+                                padding: 15px 10px !important;
+                            }
+                        }
+                    }
+
+                    .various{
+                        display: block;
+                        text-align: center;
+                        font-size: 12px !important;
+                        width: 100% !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 14px 85px !important;
+                        margin: auto 0 !important;
+                    }
+                }
+            }
+
+            .ubank{
+                margin-top: -40px !important;
+                height: 600px !important;
+                display: block !important;
+
+                .ubank_info{
+                    margin: 0 !important;
+                    padding: 2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro;
+                    }
+
+                    .comp_version{
+                        display: none;
+                    }
+
+                    .mobile_version{
+                        display: block !important;
+
+                        .icons{
+                            margin-bottom: 0.7rem !important;
+
+                            img{
+                                width: 18%;
+                            }
+                        }
+
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 15px 30px !important;
+                    }
+                }
+
+                .app_image{
+                    width: 75% !important;
+                    bottom: -28px !important;
+                    left: -50px !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .currency{
+                padding: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                .currency_tabmenu{
+                    display: block !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        padding: 12px 22px;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .currency_box{
+                    .display_none{
+                        display: none !important;
+                    }
+
+                    .box{
+                        h4{
+                            display: none !important;
+                        }
+
+                        p{
+                            margin: 3rem 0 4rem !important;
+                        }
+
+                        table{
+                            width: 100% !important;
+                        }
+                    }
+                }
+
+                .currency_calc{
+                    display: block !important;
+                    margin: 1rem 0 !important;
+                    padding: 3rem 2rem !important;
+
+                    .currency_info{
+                        width: 100% !important;
+                        margin-bottom: 1rem !important;
+
+                        h2{
+                            font-size: 18px !important;
+                        }
+                    }
+
+                    .cross_arrow{
+                        display: none;
+                    }
+
+                    .calc_operations{
+                        margin-bottom: 0.5rem;
+                        display: flex;
+
+                        .calc_div{
+                            position: relative;
+
+                            .calc_input{
+                                input{
+                                    width: 440px !important;
+                                    padding: 1rem !important;
+                                }
+                            }
+
+                            .currency_div{
+                                position: absolute;
+                                right: 40px !important;
+
+                                .main_box{
+                                    i{
+                                        margin-left: 1px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .news{
+                .box{
+                    height: 280px !important;
+                    padding: 2rem !important;
+
+                    h4{
+                        font-size: 14px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+
+                a{
+                    font-size: 14px !important;
+                    padding: 14px !important;
+                    width: 25% !important;
+                }
+            }
+
+            .connection{
+                display: block !important;
+
+                .location{
+                    width: 100% !important;
+                    margin-bottom: 1rem !important;
+                    padding: 2rem !important;
+                    height: 240px !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1rem !important;
+                        width: 100% !important;
+                    }
+
+                    p{
+                        width: 70% !important;
+                        font-size: 13px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        width: 25% !important;
+                        padding: 12px 18px !important;
+                    }
+
+                    img{
+                        position: absolute;
+                        top: 25px !important;
+                        right: 40px !important;
+                        width: 35% !important;
+                    }
+                }
+
+                .call_center{
+                    width: 100% !important;
+                    height: 240px !important;
+                    padding: 2rem !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        width: 100% !important;
+                        line-height: 24px !important;
+                        margin-bottom: 1rem !important;
+                    }
+
+                    p{
+                        font-size: 13px !important;
+                        width: 100% !important;
+                        line-height: 20px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        width: 25% !important;
+                        padding: 12px 18px !important;
+                    }
+                }
+            }
+
+            // Cards page responsive
+
+            .title{
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .ucard_panel{
+                padding: 2rem;
+                height: 480px;
+
+                .ucard_image{
+                    width: 60%;
+                    margin: 0 auto -40px;
+                }
+
+                .ucard_header{
+                    position: relative;
+
+                    .ucard_title{
+                        width: 100%;
+
+                        h1{
+                            text-align: center;
+                            font-size: 22px;
+                        }
+                    }
+
+                    .ucard_link{
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        margin-top: 170px !important;
+
+                        a{
+                            font-size: 12px !important;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .ucard_parametrs{
+                    .box{
+                        margin-top: -30px !important;
+
+                        i{
+                            font-size: 32px;
+                            display: flex;
+                            justify-content: center;
+                            margin-bottom: 0.4rem !important;
+                        }
+
+                        p{
+                            font-size: 16px;
+                            line-height: 14px;
+                            text-align: center;
+                            width: 60%;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                p{
+                    text-align: center !important;
+                    font-size: 12px !important;
+                }
+            }
+
+            .ubank_cards{
+                .box{
+                    padding: 2rem;
+                    height: 560px;
+
+                    .ubank_image{
+                        width: 100%;
+                    }
+
+                    .ubank_infobox{
+                        margin-bottom: -30px;
+
+                        h2{
+                            text-align: center !important;
+                            font-size: 18px !important;
+                        }
+            
+                        p{
+                            text-align: center !important;
+                            font-size: 12px !important;
+                            line-height: 16px !important;
+                        }
+                    }
+
+                    a{
+                        display: block !important;
+                        width: 25% !important;
+                        margin: 0 auto !important;
+                        font-size: 12px;
+                        text-align: center !important;
+                    }
+
+                    .ubank_connection{
+                        display: flex;
+                        justify-content: center;
+
+                        a{
+                            margin: 0 5px !important;
+                        }
+                    }
+                }
+            }
+
+            // Cashback page responsive
+
+            .cashback_info{
+                p{
+                    font-size: 12px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .responsive_tabmenu{
+                display: block !important;
+                position: relative;
+                align-items: center !important;
+                margin-top: 2rem !important;
+
+                span{
+                    font-size: 26px !important;
+                    font-family: boldpro !important;
+                    color: #FF6400;
+                }
+
+                i{
+                    position: absolute;
+                    right: 0 !important;
+                    font-size: 18px !important;
+                    color: #FFFFFF !important;
+                    background-color: #FF6400 !important;
+                    padding: 8px !important;
+                    border-radius: 100% !important;
+                    cursor: pointer;
+                }
+            }
+
+            .steels{
+                display: none;
+            }
+
+            .cashback_header{
+                margin-top: 0.5rem !important;
+
+                .select_options{
+                    i{
+                        top: 60px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+
+            .cashback_partners{
+                display: block !important;
+
+                .partner_box{
+                    width: 100% !important;
+                    position: relative;
+                    height: 120px;
+
+                    .partner_image{
+                        width: 15% !important;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 2rem !important;
+                    }
+
+                    .partner_info{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 30% !important;
+                        text-align: start !important;
+                        width: 70% !important;
+
+                        h2{
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 30px !important;
+                            font-size: 22px !important;
+                        }
+
+                        h4{
+                            width: 100% !important;
+                            font-size: 14px !important;
+                            margin-bottom: 6px !important;
+                        }
+
+                        h6{
+                            font-size: 12px !important;
+                        }
+
+                        p{
+                            margin-top: -8px !important;
+                        }
+                    }
+                }
+            }
+
+            #loadMore{
+                width: 28% !important;
+            }
+
+            .cashback_information{
+                display: none;
+            }
+
+            .responsive_cashback{
+                display: block !important;
+                background-color: #FAFAFA;
+                padding: 2rem !important;
+                border-radius: 10px;
+                margin-top: 2rem !important;
+
+                .responsive_cashback_tabs{
+                    position: relative;
+                    margin-top: 1rem !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 14px !important;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        display: block;
+                        width: 100%;
+                        padding: 12px 25px;
+                    }
+
+                    i{
+                        position: absolute;
+                        right: 22px;
+                        top: 13px;
+                        font-size: 10px;
+                        padding: 4px;
+                        border: 2px solid #969696;
+                        border-radius: 100%;
+                    }
+                }
+
+                .cashback_context{
+                    h6{
+                        font-size: 16px !important;
+                        margin-top: 3rem !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        font-family: montserrat;
+                        margin-bottom: 2rem !important;
+                    }
+                }
+            }
+
+            .cashback_calculator{
+                padding: 2rem !important;
+
+                .cashback_calc{
+                    padding: 0 !important;
+
+                    .select_options{
+                        p{
+                            font-size: 12px !important;
+                        }
+
+                        span{
+                            top: 55px !important;
+                        }
+                    }
+
+                    .cashback_result{
+                        p{
+                            font-size: 32px !important;
+                        }
+
+                        span{
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+
+                img{
+                    width: 30% !important;
+                }
+            }
+
+            // Location page responsive
+
+            .atm{
+                margin-bottom: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                    margin-top: 28px !important; 
+                }
+
+                .locations{
+                    height: 60px !important;
+                    margin-bottom: -30px;
+
+                    a{
+                        padding: 12px 18px;
+                        font-size: 12px;
+                        line-height: normal;
+                        white-space: nowrap;
+                    }
+
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                }
+            }
+
+            .branch{
+                padding: 1rem 2rem !important;
+
+                h1{
+                    font-size: 16px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+
+                i{
+                    font-size: 20px !important;
+                }
+
+                .branch_info{
+                    p{
+                        font-size: 12px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            .branch_banner{
+                padding: 0.5rem 2rem !important;
+
+                i{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 14px !important;
+                    margin-top: 16px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            // Digital banking page responsive
+
+            .digital_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .digital_icon{
+                    width: 10% !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .digital_info{
+                    width: 88% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Contacts page responsive
+
+            .contacts_title{
+                margin-top: 2rem !important;
+
+                h1{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            .contact_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 110px !important;
+                position: relative;
+
+                .contact_icon{
+                    width: 10% !important;
+                    margin: auto !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .contact_info{
+                    width: 88% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Services page responsive
+
+            .service_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 110px !important;
+                position: relative;
+
+                .service_icon{
+                    width: 10% !important;
+                    margin: auto 0;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .service_info{
+                    width: 88% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // HR page responsive
+
+            .page_title{
+                margin-top: 1.5rem;
+                margin-bottom: -10px !important;
+
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .hr_links{
+                height: 60px !important;
+                margin-top: 1.5rem !important;
+                margin-bottom: -40px;
+
+                a{
+                    padding: 12px 18px;
+                    font-size: 12px;
+                    line-height: normal;
+                    white-space: nowrap;
+                }
+
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+
+            .unibank_video{
+                height: 180px;
+                margin-bottom: -30px !important;
+
+                iframe{
+                    height: 180px;
+                }
+            }
+
+            .hr_information{
+                .box{
+                    position: relative;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem 1.5rem !important;
+                    height: 100px !important;
+                    margin-bottom: -15px;
+
+                    .icon{
+                        width: 8% !important;
+                        margin: auto 0 !important;
+
+                        i{
+                            font-size: 36px !important;
+                        }
+                    }
+
+                    .info{
+                        position: absolute;
+                        width: 75% !important;
+                        text-align: start !important;
+                        left: 15% !important;
+
+                        h1{
+                            font-size: 14px !important;
+                            margin-bottom: 4px !important;
+                        }
+
+                        p{
+                            font-size: 11px !important;
+                            font-weight: 400 !important;
+                            line-height: 14px !important;
+                        }
+                    }
+
+                    .direction{
+                        display: block !important;
+                        position: absolute !important;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 40px !important;
+
+                        i{
+                            font-size: 11px !important;
+                            color: #969696 !important;
+                        }
+                    }
+                }
+            }
+
+            .management{
+                .person{
+                    height: 300px !important;
+                    padding: 2rem 1.5rem !important;
+                    margin-bottom: 1rem !important;
+
+                    .img{
+                        width: 20% !important;
+                    }
+
+                    .info{
+                        margin-top: 1rem !important;
+
+                        h1{
+                            font-size: 15px !important;
+                            margin-bottom: 0 !important;
+                        }
+
+                        span{
+                            font-size: 11px !important;
+                        }
+
+                        p{
+                            font-size: 12px !important;
+                            margin-top: 4px !important;
+                            line-height: 16px !important;
+                        }
+                    }
+                }
+            }
+
+            .about_us{
+                margin-top: 0.5rem !important;
+                padding: 2rem 1.5rem !important;
+
+                h1{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    line-height: 15px !important;
+                    text-align: start !important;
+                }
+            }
+
+            .extention{
+                margin-top: 1rem !important;
+
+                .box{
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem 1.5rem !important;
+                    height: 60px !important;
+                    align-items: center !important;
+                    margin-bottom: 0.5rem !important;
+
+                    .icon{
+                        width: 8%;
+
+                        i{
+                            font-size: 30px !important;
+                        }
+                    }
+
+                    .info{
+                        width: 90% !important;
+                        text-align: start !important;
+
+                        h1{
+                            font-size: 13px !important;
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+
+            .properties{
+                margin-top: 1rem !important;
+
+                h1{
+                    font-size: 26px !important;
+                }
+
+                .box{
+                    margin-top: 0.5rem !important;
+
+                    h1{
+                        font-size: 15px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            // Vacancies page responsive
+
+            .vacancies{
+                .vacancy{
+                    padding: 2rem 1rem !important;
+                    margin: 0 1px 1rem !important;
+
+                    .vacancy_info{
+                        h1{
+                            font-size: 15px !important;
+                        }
+        
+                        p{
+                            font-size: 11px !important;
+                            margin-bottom: 1.5rem !important;
+                        }
+                    }
+                }
+            }
+
+            .vacancy_link{
+                a{
+                    font-size: 13px !important;
+                    padding: 14px 22px !important;
+
+                    i{
+                        font-size: 14px !important;
+                    }
+                }
+            }
+
+            // Transfers page responsive
+
+            .transfer_title{
+                margin-top: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .transfer_link{
+                a{
+                    font-size: 14px !important;
+                    padding: 12px 22px !important;
+                }
+            }
+
+            #various_box{
+                height: 300px !important;
+            }
+
+            .transfers{
+                padding: 2rem 1rem !important;
+                height: 480px !important;
+
+                .transfer_img{
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .transfer_info{
+                    h1{
+                        font-size: 20px !important;
+                    }
+
+                    p{
+                        margin-bottom: 2px !important;
+                    }
+
+                    .description{
+                        margin-top: 1.5rem !important;
+                        line-height: 19px !important;
+                    }
+
+                    .direction{
+                        a{
+                            font-size: 14px !important;
+                            padding: 12px 20px !important;
+
+                            i{
+                                font-size: 11px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Tarifs page responsive
+
+            .tarifs_title{
+                h1{
+                    font-size: 22px !important;
+                }
+            }
+
+            .tarif_box{
+                position: relative;
+                padding: 1rem !important;
+
+                h2{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 10px !important;
+                }
+
+                .tarif_link{
+                    position: absolute !important;
+                    top: 50% !important;
+                    transform: translateY(-50%) !important;
+                    right: 5% !important;
+
+                    a{
+                        padding: 12px 22px !important;
+                        border-radius: 100% !important;
+                        position: relative;
+
+                        span{
+                            display: none !important;
+                        }
+    
+                        i{
+                            margin: 0 !important;
+                            position: absolute;
+                            top: 50% !important;
+                            left: 50% !important;
+                            transform: translate(-50%,-50%) !important;
+                        }
+                    }
+                }
+            }
+
+            // Credits page responsive
+
+            .credits{
+                margin-top: -20px !important;
+
+                .credit_box{
+                    padding: 2rem !important;
+                    height: 280px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // Deposits page responsive
+
+            .deposits{
+                margin-top: -20px !important;
+
+                .deposit_box{
+                    padding: 2rem !important;
+                    height: 250px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // About page responsive
+
+            .bank_info{
+                margin-top: 1rem !important;
+                
+                h2, p{
+                    font-size: 12px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            .bank_banner{
+                margin: 0 1px !important;
+                padding: 20px !important;
+
+                .banner_info{
+                    margin-top: 1rem !important;
+                    font-size: 13px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .bank_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 1.5rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .bank_icon{
+                    width: 15% !important;
+                    margin: auto 0 !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .bank_content{
+                    width: 85% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-top: 10px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            .bottom_box{
+                .box{
+                    margin-bottom: 1rem;
+
+                    h1{
+                        font-size: 22px !important;
+                    }
+
+                    .box_info{
+                        font-size: 12px !important;
+                        line-height: 16px !important;
+                    }
+                }
+            }
+
+            .awards{
+                .awards_title{
+                    h1{
+                        font-size: 22px !important;
+                    }
+                }
+
+                .box{
+                    margin-bottom: 1rem !important;
+                }
+
+                .box_info{
+                    font-size: 12px !important;
+                }
+            }
+
+            // News page responsive
+
+            .news_box{
+                h1{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            // Cashback details resonsive
+
+            .cashback_box{
+                display: none;
+            }
+
+            .mobile_cashback{
+                display: block !important;
+                background-color: #FAFAFA;
+                padding: 2rem;
+                margin-top: 24px;
+                border-radius: 10px;
+                text-align: center;
+
+                h1{
+                    font-size: 18px !important;
+                    font-family: montserrat;
+                    font-weight: bold !important;
+                    color: #000000 !important;
+                    margin-bottom: -4px !important;
+                }
+
+                span{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    color: #000000;
+                }
+
+                .mobile_image{
+                    width: 50% !important;
+                    margin: 24px auto 0 !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .mobile_discount{
+                    h1{
+                        font-size: 52px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #FF6400 !important;
+                    }
+
+                    p{
+                        font-size: 10px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #32323280;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .all_footer{
+            display: none !important;
+        }
+
+        .footer_icons{
+            display: flex;
+            justify-content: center;
+
+            a{
+                margin: 0 4px !important;
+            }
+        }
+
+        .footer_end{
+            flex-direction: column-reverse;
+
+            .right_end{
+                margin-bottom: 3rem;
+                display: flex;
+                justify-content: center !important;
+
+                a{
+                    width: 15% !important;
+                }
+            }
+
+            .left_end{
+                h4{
+                    font-size: 14px !important;
+                    font-family: montserrat !important;
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    font-family: montserrat !important;
+                    text-align: center;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+
+    .chat_icon{
+        font-size: 24px !important;
+    }
+
+    .unibank_chat{
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        overflow-y: scroll !important;
+        border-radius: 0 !important;
+
+        .chat_header{
+            border-radius: 0 !important;
+        }
+
+        .chat_title{
+            display: block !important;
+            width: 75% !important;
+            text-align: center;
+            margin: -20px auto 0 !important;
+        }
+
+        .close_chat{
+            position: absolute;
+            top: 50% !important;
+            right: 5% !important;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .custom_container{
+        width: 756px;
+        margin: 0 auto;
+    }
+
+    .nonresponsive_container{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .chat_scroll{
+        overflow-y: hidden !important;
+        width: 100% !important;
+    }
+
+    header{
+        .first_header, .second_header{
+            display: none;
+        }
+
+        .mobile_header{
+            display: block !important;
+            display: flex !important;
+            justify-content: space-between;
+            padding-top: 1rem;
+            height: 48px !important;
+            align-items: center;
+
+            .hamburger_menu{
+                i{
+                    font-size: 20px;
+                    background-color: #F5F5F6;
+                    padding: 12px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .logo{
+                width: 5%;
+    
+                img{
+                    width: 100%;
+                }
+            }
+
+            .phone{
+                a{
+                    text-decoration: none;
+                    padding: 12px 16px;
+                    background-color: #F5F5F6;
+                    border-radius: 25px;
+    
+                    i{
+                        font-size: 16px;
+                        color: #FF6400;
+                    }
+    
+                    span{
+                        font-size: 14px;
+                        font-family: poppins;
+                        font-weight: bold;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .hamburger_panel{
+            display: block !important;
+            background-color: #FAFAFA;
+            width: 100% !important;
+            z-index: 1 !important;
+            position: absolute;
+            top: -555%;
+            height: calc(100vh - 64px);
+            overflow-y: scroll;
+            box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+            transition: 1s;
+
+            .menu_hamburger{
+                width: 100% !important;
+                margin: 1rem 0 !important;
+                display: flex;
+                justify-content: center;
+
+                a{
+                    text-decoration: none;
+                    font-size: 12px;
+                    font-family: regular;
+                    color: #323232;
+                    padding: 10px 20px;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                }
+            }
+
+            .navigation_menu{
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #000000;
+                    font-size: 20px;
+                    font-family: bold;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .navbar_menu{
+                a{
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: rgba(0,0,0,.4);
+                    font-size: 14px;
+                    font-family: regular;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .option_menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3rem;
+                margin-bottom: 5rem !important;
+
+                .theme_hamburger{
+                    margin-right: 0.8rem !important;
+
+                    i{
+                        font-size: 16px;
+                        padding: 8px 10px 9px 10px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    .moon{
+                        color: #FFFFFF;
+                        background-color: #323232;
+                    }
+    
+                    .sun{
+                        color: #323232;
+                        background-color: #FFFFFF;
+                    }
+                }
+
+                .responsive_search{
+                    margin-right: 0.8rem;
+
+                    span{
+                        i{
+                            font-size: 16px;
+                            color: #323232;
+                            padding: 8px 10px 11px 10px;
+                            border-radius: 5px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .responsive_language{
+                    margin-right: 0.8rem;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-family: bold;
+                        color: #323232;
+                        background-color: #FFFFFF;
+                        padding: 10px 8px 8px;
+                        margin-right: 5px;
+                        border-radius: 5px;
+                        box-shadow: 0 2px 14px -10px rgba(0,0,0,0.3);
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        section{
+
+            // Index page responsive
+
+            .slider_page{
+                display: none !important;
+            }
+
+            .mobile_slider_page{
+                display: block !important;
+                background-color: #FF6400;
+                height: 420px;
+                border-radius: 15px;
+                flex-basis: 100%;
+                position: relative;
+
+                .slider_img{
+                    width: 31%;
+                    margin: auto;
+                    position: absolute;
+                    bottom: 0 !important;
+
+                    img{
+                        width: 100%;
+                        margin-left: 15rem;
+                    }
+                }
+
+                .slider_info{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 3rem;
+                    
+                    h1{
+                        font-size: 24px;
+                        width: 100% !important;
+                        margin: 0 auto 10px;
+                        font-family: boldpro;
+                        color: #FFFFFF;
+
+                        br{
+                            display: none !important;
+                        }
+                    }
+                    
+                    p{
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        font-weight: 500;
+                        width: 85%;
+                        margin: 0 auto 2rem;
+                    }
+                    
+                    a{
+                        font-size: 12px;
+                        font-family: bold;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        border: 1px solid #FFFFFF;
+                        padding: 16px 25px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .carusel_control{
+                ul{
+                    bottom: -25px !important;
+                }
+            }
+
+            .info{
+                margin-top: 10px !important;
+
+                .box{
+                    padding: 1.5rem 0 !important;
+        
+                    h4{
+                        font-size: 16px !important;
+                        margin-bottom: 1rem !important;
+                    }
+        
+                    h2{
+                        font-size: 36px !important;
+                    }
+        
+                    span{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                    }
+        
+                    a{
+                        font-size: 12px !important;
+                        padding: 12px 16px !important;
+                        width: 30% !important;
+                    }
+                }
+            }
+
+            .ucard{
+                margin: 5rem 0 2rem !important;
+                height: 630px !important;
+                padding: 1rem !important;
+                display: block !important;
+
+                .card_image{
+                    position: relative;
+                    width: 80% !important;
+                    height: 160px !important;
+                    margin-left: 4rem !important;
+                    margin-bottom: 14rem !important;
+
+                    img{
+                        width: 90% !important;
+                        position: absolute;
+                        top: -90px !important;
+                    }
+                }
+
+                .card_info{
+                    margin: 0 1.2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        margin-bottom: 1rem !important;
+                        width: 100% !important;
+                        font-weight: 500 !important;
+                        line-height: 18px !important;
+                    }
+
+                    .ucard_comp{
+                        display: none !important;
+                    }
+
+                    .ucard_resp{
+                        display: block !important;
+
+                        .ucard_flex{
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            margin-top: -10px !important;
+
+                            a{
+                                display: block !important;
+                                width: 49.5% !important;
+                                text-align: center;
+                                padding: 15px 10px !important;
+                            }
+                        }
+                    }
+
+                    .various{
+                        display: block;
+                        text-align: center;
+                        font-size: 12px !important;
+                        width: 100% !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 14px 133px !important;
+                        margin: auto 0 !important;
+                    }
+                }
+            }
+
+            .ubank{
+                height: 650px !important;
+                display: block !important;
+
+                .ubank_info{
+                    margin: 0 !important;
+                    padding: 2rem !important;
+
+                    h2{
+                        font-size: 22px !important;
+                        font-family: boldpro;
+                    }
+
+                    .comp_version{
+                        display: none;
+                    }
+
+                    .mobile_version{
+                        display: block !important;
+
+                        .icons{
+                            margin-bottom: 0.7rem !important;
+
+                            img{
+                                width: 15%;
+                            }
+                        }
+
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+
+                    a{
+                        font-size: 12px !important;
+                        padding: 15px 30px !important;
+                    }
+                }
+
+                .app_image{
+                    width: 65% !important;
+                    bottom: -6px !important;
+                    right: -50px !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .currency{
+                padding: 2rem !important;
+
+                h1{
+                    font-size: 24px !important;
+                }
+
+                .currency_tabmenu{
+                    display: block !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        padding: 14px 26px;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .currency_box{
+                    .display_none{
+                        display: none !important;
+                    }
+
+                    .box{
+                        h4{
+                            display: none !important;
+                        }
+
+                        p{
+                            margin: 3rem 0 4rem !important;
+                        }
+
+                        table{
+                            width: 100% !important;
+                        }
+                    }
+                }
+
+                .currency_calc{
+                    display: block !important;
+                    margin: 1rem 0 !important;
+                    padding: 4rem 2rem !important;
+
+                    .currency_info{
+                        width: 100% !important;
+                        margin-bottom: 1rem !important;
+
+                        h2{
+                            font-size: 22px !important;
+                        }
+
+                        p{
+                            font-size: 14px !important;
+                        }
+                    }
+
+                    .cross_arrow{
+                        display: none;
+                    }
+
+                    .calc_operations{
+                        margin-bottom: 0.5rem;
+                        display: flex;
+
+                        .calc_div{
+                            position: relative;
+
+                            .calc_input{
+                                input{
+                                    width: 620px !important;
+                                    padding: 1rem !important;
+                                }
+                            }
+
+                            .currency_div{
+                                position: absolute;
+                                right: 80px !important;
+
+                                .main_box{
+                                    i{
+                                        margin-left: 1px !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .news{
+                .box{
+                    height: 240px !important;
+                    padding: 2rem !important;
+
+                    h4{
+                        font-size: 16px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    p{
+                        font-size: 14px !important;
+                    }
+                }
+
+                a{
+                    font-size: 14px !important;
+                    padding: 14px !important;
+                    width: 20% !important;
+                }
+            }
+
+            .connection{
+                display: block !important;
+
+                .location{
+                    width: 100% !important;
+                    margin-bottom: 1rem !important;
+                    padding: 2rem !important;
+                    height: 240px !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        line-height: 20px !important;
+                        margin-bottom: 1rem !important;
+                        width: 100% !important;
+                    }
+
+                    p{
+                        width: 75% !important;
+                        font-size: 13px !important;
+                    }
+
+                    a{
+                        font-size: 14px !important;
+                        width: 20% !important;
+                        padding: 14px 18px !important;
+                    }
+
+                    img{
+                        position: absolute;
+                        top: 8px !important;
+                        width: 28% !important;
+                    }
+                }
+
+                .call_center{
+                    width: 100% !important;
+                    height: 240px !important;
+                    padding: 2rem !important;
+
+                    h2{
+                        font-size: 20px !important;
+                        width: 100% !important;
+                        line-height: 24px !important;
+                        margin-bottom: 1rem !important;
+                    }
+
+                    p{
+                        font-size: 13px !important;
+                        width: 100% !important;
+                        line-height: 20px !important;
+                    }
+
+                    a{
+                        font-size: 14px !important;
+                        width: 20% !important;
+                        padding: 14px 18px !important;
+                    }
+
+                    img{
+                        width: 50% !important;
+                        position: absolute;
+                        left: 380px !important;
+                    }
+                }
+            }
+
+            // Cards page responsive
+
+            .title{
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .ucard_panel{
+                padding: 2rem;
+                height: 480px;
+
+                .ucard_image{
+                    width: 50%;
+                    margin: 0 auto -40px;
+                }
+
+                .ucard_header{
+                    position: relative;
+
+                    .ucard_title{
+                        width: 100%;
+
+                        h1{
+                            text-align: center;
+                            font-size: 22px;
+                        }
+                    }
+
+                    .ucard_link{
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        margin-top: 160px !important;
+
+                        a{
+                            font-size: 12px !important;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .ucard_parametrs{
+                    width: 80%;
+                    margin: 0 auto;
+
+                    .box{
+                        i{
+                            font-size: 32px;
+                            display: flex;
+                            justify-content: center;
+                            margin-bottom: 0.4rem !important;
+                        }
+
+                        p{
+                            font-size: 16px;
+                            line-height: 14px;
+                            text-align: center;
+                            width: 60%;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                p{
+                    text-align: center !important;
+                    font-size: 12px !important;
+                }
+            }
+
+            .ubank_cards{
+                .box{
+                    padding: 2rem;
+                    height: 680px;
+
+                    .ubank_image{
+                        width: 100%;
+                    }
+
+                    .ubank_infobox{
+                        margin-bottom: -40px;
+
+                        h2{
+                            text-align: center !important;
+                            font-size: 20px !important;
+                        }
+            
+                        p{
+                            text-align: center !important;
+                            font-size: 12px !important;
+                            line-height: 16px !important;
+                            width: 90%;
+                            margin: 0 auto;
+                        }
+                    }
+
+                    a{
+                        display: block !important;
+                        width: 20% !important;
+                        margin: 0 auto !important;
+                        font-size: 12px;
+                        text-align: center !important;
+                    }
+
+                    .ubank_connection{
+                        display: flex;
+                        justify-content: center;
+
+                        a{
+                            margin: 0 5px !important;
+                        }
+                    }
+                }
+            }
+
+            // Cashback page responsive
+
+            .cashback_info{
+                p{
+                    font-size: 12px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .responsive_tabmenu{
+                display: block !important;
+                position: relative;
+                align-items: center !important;
+                margin-top: 2rem !important;
+
+                span{
+                    font-size: 26px !important;
+                    font-family: boldpro;
+                    color: #FF6400;
+                }
+
+                i{
+                    position: absolute;
+                    right: 0;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    background-color: #FF6400;
+                    padding: 8px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            .steels{
+                display: none;
+            }
+
+            .cashback_header{
+                margin-top: 0.5rem !important;
+
+                .select_options{
+                    i{
+                        top: 60px;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+
+            .cashback_partners{
+                display: block !important;
+
+                .partner_box{
+                    width: 100% !important;
+                    position: relative;
+                    height: 120px;
+
+                    .partner_image{
+                        width: 11% !important;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 2rem !important;
+                    }
+
+                    .partner_info{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 20%;
+                        text-align: start !important;
+                        width: 69% !important;
+
+                        h2{
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: -36px !important;
+                            font-size: 20px !important;
+                        }
+
+                        h4{
+                            width: 100% !important;
+                            font-size: 14px;
+                            margin-bottom: 6px;
+                        }
+
+                        h6{
+                            font-size: 12px;
+                        }
+
+                        p{
+                            margin-top: -8px;
+                        }
+                    }
+                }
+            }
+
+            #loadMore{
+                width: 21% !important;
+            }
+
+            .cashback_information{
+                display: none;
+            }
+
+            .responsive_cashback{
+                display: block !important;
+                background-color: #FAFAFA;
+                padding: 2rem !important;
+                border-radius: 10px;
+                margin-top: 2rem !important;
+
+                .responsive_cashback_tabs{
+                    position: relative;
+                    margin-top: 1rem !important;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 14px !important;
+                        font-family: bold;
+                        color: #A1A1A1;
+                        border: 2px solid #969696;
+                        border-radius: 25px;
+                        display: block;
+                        width: 100% !important;
+                        padding: 12px 25px;
+                    }
+
+                    i{
+                        position: absolute;
+                        right: 22px;
+                        top: 13px;
+                        font-size: 10px;
+                        padding: 4px;
+                        border: 2px solid #969696;
+                        border-radius: 100%;
+                    }
+                }
+
+                .cashback_context{
+                    h6{
+                        font-size: 16px !important;
+                        margin-top: 3rem !important;
+                        margin-bottom: 1.5rem !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        font-family: montserrat;
+                        margin-bottom: 2rem !important;
+                    }
+                }
+            }
+
+            .cashback_calculator{
+                padding: 2rem !important;
+
+                .cashback_calc{
+                    padding: 0 !important;
+
+                    .select_options{
+                        p{
+                            font-size: 12px !important;
+                        }
+
+                        span{
+                            top: 55px;
+                        }
+                    }
+
+                    .cashback_result{
+                        p{
+                            font-size: 32px !important;
+                        }
+
+                        span{
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+
+                img{
+                    width: 25% !important;
+                }
+            }
+
+            // Location page responsive
+
+            .atm{
+                h1{
+                    font-size: 28px !important;
+                    margin-top: 28px !important;
+                }
+
+                .locations{
+                    height: 60px !important;
+
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+
+                    a{
+                        font-size: 14px !important;
+                        padding: 12px 18px;
+                        margin-left: 0 !important;
+                        line-height: normal;
+                        white-space: nowrap;
+                    }
+                }
+            }
+
+            .branch{
+                padding: 2rem !important;
+
+                h1{
+                    font-size: 18px !important;
+                }
+
+                p{
+                    font-size: 14px !important;
+                }
+
+                i{
+                    font-size: 20px !important;
+                }
+
+                .branch_info{
+                    p{
+                        font-size: 14px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            .branch_banner{
+                padding: 1rem 2rem !important;
+
+                i{
+                    font-size: 20px !important;
+                }
+
+                p{
+                    font-size: 14px !important;
+                    margin-top: 16px !important;
+                }
+            }
+
+            // Digital banking page responsive
+
+            .digital_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .digital_icon{
+                    width: 8% !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .digital_info{
+                    width: 90% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Contacts page responsive
+
+            .contacts_title{
+                margin-top: 2rem !important;
+
+                h1{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            .contact_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .contact_icon{
+                    width: 8% !important;
+                    margin: auto !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .contact_info{
+                    width: 90% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // Services page responsive
+
+            .service_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 2rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .service_icon{
+                    width: 8% !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px !important;
+                    color: #969696;
+                }
+
+                .service_info{
+                    width: 90% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 16px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            // HR page responsive
+
+            .page_title{
+                margin-top: 1.5rem;
+                margin-bottom: -10px !important;
+
+                h1{
+                    font-size: 24px;
+                }
+            }
+
+            .hr_links{
+                height: 60px !important;
+                margin-top: 1.5rem !important;
+                margin-bottom: -40px;
+
+                a{
+                    padding: 12px 18px;
+                    font-size: 14px;
+                    line-height: normal;
+                    white-space: nowrap;
+                }
+
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+
+            .unibank_video{
+                height: 180px;
+                margin-bottom: -30px !important;
+
+                iframe{
+                    height: 180px;
+                }
+            }
+
+            .hr_information{
+                .box{
+                    position: relative;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem !important;
+                    height: 110px !important;
+                    margin-bottom: -15px;
+
+                    .icon{
+                        width: 10% !important;
+                        margin: auto 0 !important;
+
+                        i{
+                            font-size: 36px !important;
+                        }
+                    }
+
+                    .info{
+                        position: absolute;
+                        width: 78% !important;
+                        text-align: start !important;
+                        left: 14% !important;
+
+                        h1{
+                            font-size: 15px !important;
+                            margin-bottom: 4px !important;
+                        }
+
+                        p{
+                            font-size: 12px !important;
+                            font-weight: 400 !important;
+                            line-height: 14px !important;
+                        }
+                    }
+
+                    .direction{
+                        display: block !important;
+                        position: absolute !important;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 40px !important;
+
+                        i{
+                            font-size: 11px !important;
+                            color: #969696 !important;
+                        }
+                    }
+                }
+            }
+
+            .management{
+                .person{
+                    height: 300px !important;
+                    margin-bottom: 1rem !important;
+
+                    .img{
+                        width: 15% !important;
+                    }
+
+                    .info{
+                        margin-top: 1rem !important;
+
+                        h1{
+                            font-size: 15px !important;
+                            margin-bottom: 0 !important;
+                        }
+
+                        span{
+                            font-size: 11px !important;
+                        }
+
+                        p{
+                            font-size: 12px !important;
+                            margin-top: 4px !important;
+                            line-height: 16px !important;
+                        }
+                    }
+                }
+            }
+
+            .about_us{
+                margin-top: 0.5rem !important;
+                padding: 2rem 3rem !important;
+
+                h1{
+                    font-size: 22px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    line-height: 15px !important;
+                    text-align: start !important;
+                }
+            }
+
+            .extention{
+                margin-top: 1rem !important;
+
+                .box{
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    padding: 2rem !important;
+                    height: 60px !important;
+                    align-items: center !important;
+                    margin-bottom: 0.5rem !important;
+
+                    .icon{
+                        width: 8%;
+
+                        i{
+                            font-size: 30px !important;
+                        }
+                    }
+
+                    .info{
+                        width: 90% !important;
+                        text-align: start !important;
+
+                        h1{
+                            font-size: 13px !important;
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+
+            .properties{
+                margin-top: 1rem !important;
+
+                h1{
+                    font-size: 26px !important;
+                }
+
+                .box{
+                    margin-top: 0.5rem !important;
+
+                    h1{
+                        font-size: 15px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 14px !important;
+                    }
+                }
+            }
+
+            // Vacancies page responsive
+
+            .vacancies{
+                .vacancy{
+                    padding: 2rem 1rem !important;
+                    margin: 0 1px 1rem !important;
+
+                    .vacancy_info{
+                        h1{
+                            font-size: 16px !important;
+                        }
+        
+                        p{
+                            font-size: 12px !important;
+                            margin-bottom: 1.5rem !important;
+                        }
+                    }
+        
+                    .vacancy_link{
+                        a{
+                            font-size: 14px !important;
+                            padding: 14px 22px !important;
+        
+                            i{
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Transfers page responsive
+
+            .transfer_title{
+                margin-top: 2rem !important;
+
+                h1{
+                    font-size: 26px !important;
+                }
+
+                p{
+                    font-size: 14px !important;
+                    line-height: 18px !important;
+                }
+            }
+
+            .transfer_link{
+                a{
+                    font-size: 16px !important;
+                    padding: 14px 24px !important;
+                }
+            }
+
+            #various_box{
+                height: 300px !important;
+            }
+
+            .transfers{
+                padding: 2rem 1rem !important;
+                height: 420px !important;
+
+                .transfer_img{
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .transfer_info{
+                    h1{
+                        font-size: 20px !important;
+                    }
+
+                    p{
+                        margin-bottom: 2px !important;
+                    }
+
+                    .description{
+                        margin-top: 1.5rem !important;
+                        line-height: 19px !important;
+                    }
+
+                    .direction{
+                        a{
+                            font-size: 16px !important;
+                            padding: 14px 22px !important;
+
+                            i{
+                                font-size: 11px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Tarifs page responsive
+
+            .tarifs_title{
+                h1{
+                    font-size: 22px !important;
+                }
+            }
+
+            .tarif_box{
+                position: relative;
+                padding: 1rem !important;
+
+                h2{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 10px !important;
+                }
+
+                .tarif_link{
+                    position: absolute !important;
+                    top: 50% !important;
+                    transform: translateY(-50%) !important;
+                    right: 2% !important;
+
+                    a{
+                        padding: 12px 22px !important;
+                        border-radius: 100% !important;
+                        position: relative;
+
+                        span{
+                            display: none !important;
+                        }
+    
+                        i{
+                            margin: 0 !important;
+                            position: absolute;
+                            top: 50% !important;
+                            left: 50% !important;
+                            transform: translate(-50%,-50%) !important;
+                        }
+                    }
+                }
+            }
+
+            // Credits page responsive
+
+            .credits{
+                margin-top: -20px !important;
+
+                .credit_box{
+                    padding: 2rem !important;
+                    height: 280px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // Deposits page responsive
+
+            .deposits{
+                margin-top: -20px !important;
+
+                .deposit_box{
+                    padding: 2rem !important;
+                    height: 250px !important;
+
+                    i{
+                        font-size: 44px !important;
+                    }
+
+                    h2{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        font-size: 12px !important;
+                        line-height: 18px !important;
+                    }
+
+                    a{
+                        font-size: 12px !important;
+
+                        i{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+
+            // About page responsive
+
+            .bank_info{
+                margin-top: 1rem !important;
+
+                h2, p{
+                    font-size: 12px !important;
+                    line-height: 14px !important;
+                }
+            }
+
+            .bank_banner{
+                margin: 0 1px !important;
+                padding: 20px !important;
+
+                .banner_info{
+                    margin-top: 1rem !important;
+                    font-size: 13px !important;
+                    line-height: 16px !important;
+                }
+            }
+
+            .bank_box{
+                display: flex !important;
+                justify-content: space-between !important;
+                padding: 1.5rem 1rem !important;
+                height: 100px !important;
+                position: relative;
+
+                .bank_icon{
+                    width: 10% !important;
+                    margin: auto 0 !important;
+
+                    i{
+                        font-size: 30px !important;
+                    }
+                }
+
+                .right_arrow{
+                    display: block !important;
+                    font-size: 10px !important;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 40px !important;
+                    color: #969696;
+                }
+
+                .bank_content{
+                    width: 90% !important;
+                    text-align: start !important;
+
+                    h1{
+                        font-size: 14px !important;
+                        margin-top: 10px !important;
+                        margin-bottom: 4px !important;
+                    }
+
+                    p{
+                        font-size: 11px !important;
+                        line-height: 12px !important;
+                        width: 90% !important;
+                    }
+                }
+            }
+
+            .bottom_box{
+                .box{
+                    margin-bottom: 1rem;
+
+                    h1{
+                        font-size: 22px !important;
+                    }
+
+                    .box_info{
+                        font-size: 12px !important;
+                        line-height: 16px !important;
+                    }
+                }
+            }
+
+            .awards{
+                .awards_title{
+                    h1{
+                        font-size: 22px !important;
+                    }
+                }
+
+                .box{
+                    margin-bottom: 1rem !important;
+                }
+
+                .box_info{
+                    font-size: 12px !important;
+                }
+            }
+
+            // News page responsive
+
+            .news_box{
+                h1{
+                    font-size: 14px !important;
+                }
+
+                p{
+                    font-size: 12px !important;
+                }
+            }
+
+            // Cashback details resonsive
+
+            .cashback_box{
+                display: none;
+            }
+
+            .mobile_cashback{
+                display: block !important;
+                background-color: #FAFAFA;
+                padding: 2rem;
+                margin-top: 24px;
+                border-radius: 10px;
+                text-align: center;
+
+                h1{
+                    font-size: 18px !important;
+                    font-family: montserrat;
+                    font-weight: bold !important;
+                    color: #000000 !important;
+                    margin-bottom: -4px !important;
+                }
+
+                span{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    font-weight: bold;
+                    color: #000000;
+                }
+
+                p{
+                    font-size: 12px !important;
+                    font-family: montserrat;
+                    color: #000000;
+                }
+
+                .mobile_image{
+                    width: 40% !important;
+                    margin: 24px auto 0 !important;
+
+                    img{
+                        width: 100% !important;
+                    }
+                }
+
+                .mobile_discount{
+                    h1{
+                        font-size: 52px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #FF6400 !important;
+                    }
+
+                    p{
+                        font-size: 10px !important;
+                        font-family: montserrat;
+                        font-weight: bold !important;
+                        color: #32323280;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .all_footer{
+            display: none !important;
+        }
+
+        .footer_icons{
+            display: flex;
+            justify-content: center;
+
+            a{
+                margin: 0 4px !important;
+            }
+        }
+
+        .footer_end{
+            flex-direction: column-reverse;
+
+            .right_end{
+                margin-bottom: 3rem;
+                display: flex;
+                justify-content: center !important;
+
+                a{
+                    width: 12% !important;
+                }
+            }
+
+            .left_end{
+                h4{
+                    font-size: 12px !important;
+                    font-family: montserrat !important;
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 11px !important;
+                    font-family: montserrat !important;
+                    text-align: center;
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+
+    .chat_icon{
+        font-size: 24px !important;
+    }
+
+    .unibank_chat{
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        overflow-y: scroll !important;
+        border-radius: 0 !important;
+
+        .chat_header{
+            border-radius: 0 !important;
+        }
+
+        .chat_title{
+            display: block !important;
+            width: 75% !important;
+            text-align: center;
+            margin: -20px auto 0 !important;
+        }
+
+        .close_chat{
+            position: absolute;
+            top: 50% !important;
+            right: 5% !important;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .custom_container{
+        width: 976px;
+        margin: 0 auto;
+    }
+
+    .search_panel{
+        width: 976px !important;
+    }
+
+    .hidden_panel{
+        width: 976px !important;
+
+        p{
+            span{
+                margin-right: 6rem !important;
+
+                &::before{
+                    width: 150px !important;
+                }
+            }
+        }
+    }
+
+    header{
+        .first_header{
+            .first_line{
+                .left_side{
+                    nav{
+                        a{
+                            margin-right: 5px !important;
+                        }
+                    }
+                }
+
+                .right_side{
+                    .menu{
+                        margin-right: 8px !important;
+
+                        a{
+                            padding: 10px 12px !important; 
+                        }
+                    }
+
+                    .theme{
+                        margin-right: 0.5rem !important;
+        
+                        i{
+                            padding: 8px 9px 9px !important;
+                        }
+                    }
+
+                    .lang{
+                        margin-right: 0 !important;
+        
+                        a{
+                            padding: 10px 8px 8px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second_header{
+            .second_line{
+                nav{
+                    a{
+                        font-size: 16px !important;
+                    }
+                }
+                
+                .phone{
+                    a{
+                        padding: 10px 14px !important;
+                    }
+                }
+            }
+        }
+
+        .hamburger_panel{
+            display: none !important;
+        }
+    }
+
+    main{
+        section{
+
+            // Index page responsive
+
+            .carusel_panel{
+                .carusel{
+                    .slider{
+                        .slider_page{
+                            .slider_img{
+                                width: 45% !important;
+
+                                img{
+                                    width: 100% !important;
+                                    margin-left: 0 !important;
+                                }
+                            }
+
+                            .slider_info{
+                                width: 100% !important;
+            
+                                p{
+                                    width: 80% !important;
+                                    margin-bottom: 3.5rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .info{
+                .box{
+                    a{
+                        width: 55% !important;
+                    }
+                }
+            }
+
+            .ucard{
+                .card_info{
+                    h2{
+                        margin-top: 4rem !important;
+                    }
+                }
+            }
+
+            .ubank{
+                .ubank_info{
+                    margin: 2rem 0 0 4rem !important;
+
+                    h2{
+                        margin-bottom: 8px !important;
+                    }
+
+                    .icons{
+                        margin-bottom: 2rem !important;
+
+                        img{
+                            margin-bottom: 0.5rem !important;
+                        }
+                    }
+
+                    a{
+                        padding: 15px 30px !important;
+                    }
+                }
+
+                .app_image{
+                    img{
+                        width: 100% !important;
+                        left: -20px !important;
+                    }
+                }
+            }
+
+            .currency{
+                padding: 2rem 4rem !important;
+
+                .currency_box{
+                    padding: 0 3rem !important;
+                }
+
+                .currency_calc{
+                    padding: 2rem 1.4rem !important;
+
+                    .currency_info{
+                        width: 100% !important;
+
+                        h2{
+                            font-size: 18px !important;
+                        }
+
+                        p{
+                            font-size: 11px !important;
+                        }
+                    }
+
+                    .cross_arrow{
+                        i{
+                            margin: 28px 10px 0 !important;
+                        }
+                    }
+
+                    .calc_operations{
+                        width: 100% !important;
+
+                        .calc_div{
+                            .calc_input{
+                                input{
+                                    padding: 1.2rem 0.7rem !important;
+                                    width: 270px !important;
+                                }
+                            }
+
+                            .currency_div{
+                                right: 20px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .news{
+                margin-top: 3rem !important;
+                
+                .box{
+                    padding: 2rem !important;
+                    height: 340px !important;
+
+                    h4{
+                        font-size: 15px !important;
+                    }
+
+                    p{
+                        font-size: 13px !important;
+                    }
+
+                    span{
+                        bottom: 20px !important;
+                    }
+                }
+            }
+
+            .connection{
+                .location{
+                    a{
+                        width: 30% !important;
+                    }
+
+                    img{
+                        width: 40% !important;
+                        left: 320px !important;
+                        top: 46px !important;
+                    }
+                }
+
+                .call_center{
+                    h2{
+                        line-height: 24px !important;
+                        margin-bottom: 1rem !important;
+                    }
+
+                    p{
+                        width: 100% !important;
+                    }
+
+                    a{
+                        width: 41% !important;
+                    }
+                }
+            }
+
+            // Cards page responsive
+
+            .ucard_panel{
+                .ucard_image{
+                    width: 100%;
+                }
+
+                .ucard_header{
+                    .ucard_link{
+                        a{
+                            padding: 15px 36px;
+                        }
+                    }
+                }
+
+                p{
+                    margin-top: 0.5rem !important;
+                }
+
+                .ucard_parametrs{
+                    margin-top: 0.8rem !important;
+                }
+            }
+
+            .ubank_cards{
+                .box{
+                    padding: 3rem 3.5rem !important;
+
+                    .ubank_image{
+                        width: 100%;
+                    }
+
+                    a{
+                        padding: 15px 36px !important;
+                    }
+                }
+            }
+
+            // Cashback responsive page
+
+            .cashback_info{
+                p{
+                    font-size: 13px !important;
+                }
+            }
+
+            .partner_image{
+                width: 60% !important;
+            }
+
+            .partner_info{
+                h6{
+                    margin-top: 0.4rem !important;
+                }
+            }
+
+            #loadMore{
+                width: 16% !important;
+            }
+
+            .cashback_tabs{
+                a{
+                    font-size: 16px !important;
+                }
+            }
+
+            .cashback_context{
+                h6{
+                    font-size: 18px !important;
+                }
+
+                p{
+                    font-size: 14px !important;
+                }
+            }
+
+            .cashback_information{
+                padding: 2rem 3.6rem 4rem !important;
+            }
+
+            // Digital banking page responsive
+
+            .digital_icon{
+                margin-bottom: 1rem !important;
+            }
+
+            .digital_info{
+                p{
+                    line-height: 16px !important;
+                }
+            }
+
+            // Services page responsive
+
+            .service_box{
+                height: 400px !important;
+            }
+
+            // Contacts page responsive
+
+            .contact_box{
+                height: 320px !important;
+            }
+
+            // HR page responsive
+
+            .hr_links{
+                a{
+                    padding: 15px 22px !important;
+                }
+            }
+
+            .hr_information{
+                .box{
+                    height: 360px !important;
+
+                    .info{
+                        margin-top: 32px !important;
+
+                        p{
+                            font-weight: 500 !important;
+                        }
+                    }
+                }
+            }
+
+            .management{
+                .person{
+                    .img{
+                        width: 25%;
+                    }
+
+                    .info{
+                        p{
+                            line-height: 16px !important;
+                        }
+                    }
+                }
+            }
+
+            .extention{
+                .box{
+                    i{
+                        font-size: 36px !important;
+                    }
+
+                    h1{
+                        font-size: 13px !important;
+                    }
+                }
+            }
+
+            .properties{
+                h1{
+                    font-size: 30px !important;
+                }
+
+                .box{
+                    h1{
+                        font-size: 18px !important;
+                    }
+
+                    p{
+                        line-height: 18px !important;
+                    }
+                }
+            }
+
+            // Vacancies page responsive
+
+            .vacancy{
+                position: relative;
+
+                .vacancy_link{
+                    position: absolute;
+                    right: 5% !important;
+                }
+            }
+
+            // Transfers page responsive
+
+            .transfer_link{
+                a{
+                    padding: 15px 25px;
+                }
+            }
+
+            // Credits page responsive
+
+            .credits{
+                margin-top: -16px !important;
+            }
+
+            // Deposits page responsive
+
+            .deposits{
+                margin-top: -16px !important;
+            }
+
+            // Tarifs page responsive
+
+            .tarif_link{
+                a{
+                    padding: 12px 24px !important;
+                }
+            }
+        }
+    }
+
+    .unibank_chat{
+        width: 330px !important;
+        height: 380px !important;
+        overflow-y: scroll;
+        bottom: 10% !important;
+
+        .close_chat{
+            margin-left: 2px !important;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.tarifs_title{
+    margin-top: 1rem;
+    
+    h1{
+        font-size: 36px;
+        font-family: boldpro;
+        color: #FF6400;
+    }
+}
+
+.tarifs{
+    margin-top: 1rem;
+
+    .tarif_box{
+        background-color: #FAFAFA;
+        border-radius: 10px;
+        padding: 2rem 3rem;
+        margin: 0 1px 1rem;
+
+        .tarif_info{
+            h2{
+                font-size: 18px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #000000;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: montserrat;
+                color: #000000CC;
+            }
+        }
+
+        .tarif_link{
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                padding: 12px 25px;
+                background-color: #FF6400;
+                border-radius: 25px;
+
+                span{
+                    font-size: 14px;
+                    font-family: montserrat;
+                    font-weight: bold;
+                }
+
+                i{
+                    font-size: 12px;
+                    padding: 4px 6px;
+                    border-radius: 100%;
+                    color: #FF6400;
+                    background-color: #FFFFFF;
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}

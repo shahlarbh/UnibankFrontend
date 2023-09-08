@@ -1,0 +1,60 @@
+.credits{
+    margin-top: 0.5rem;
+
+    .credit_box{
+        background-color: #FAFAFA;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+        height: 340px;
+        position: relative;
+    
+        i{
+            font-size: 60px;
+            color: #FF6400;
+        }
+    
+        h2{
+            font-size: 24px;
+            font-family: boldpro;
+            color: #000000;
+            margin-top: 1rem;
+        }
+    
+        p{
+            font-size: 14px;
+            font-family: montserrat;
+            color: #000000;
+            line-height: 18px;
+        }
+    
+        .directions{
+            position: absolute;
+            bottom: 50px;
+
+            a{
+                text-decoration: none;
+                font-size: 14px;
+                font-family: montserrat;
+                font-weight: bold;
+                color: #FFFFFF;
+                padding: 16px 25px;
+                border-radius: 25px;
+                background-color: #FF6400;
+        
+                i{
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    margin-left: 16px;
+                }
+            }
+
+            .various{
+                color: #969696;
+                border: 1px solid rgba(0,0,0,.1);
+                background-color: transparent;
+                padding: 14px 30px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
